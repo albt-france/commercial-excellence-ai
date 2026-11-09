@@ -1,0 +1,224 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "data",
+  "position": {
+    "x": 972,
+    "y": 430,
+    "z": 9000,
+    "height": 370,
+    "width": 916,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Data & methods",
+                    "textStyle": {
+                      "fontSize": "22pt",
+                      "color": "#0B0B0B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "REAL   ",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#52514E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "OECD Health Statistics: coronary angioplasties by country (latest year 2024, Türkiye 2025, New Zealand 2023); World Bank population, GDP and health spending.",
+                    "textStyle": {
+                      "fontSize": "16pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "SIMULATED   ",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#52514E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "sales of 357 fictional hospitals, 6 generic product lines, Jan 2023 - Oct 2026, with targets; market shares of 2-25% on the real market size.",
+                    "textStyle": {
+                      "fontSize": "16pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "SQL   ",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#52514E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "whitespace, sales vs target, price-volume-mix bridge, account alerts with window functions (DuckDB).",
+                    "textStyle": {
+                      "fontSize": "16pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Python   ",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#52514E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "seasonal forecast checked on 6 months it never saw.",
+                    "textStyle": {
+                      "fontSize": "16pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "AI   ",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#52514E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Claude API: monthly review written from SQL facts with a number check; text-to-SQL on a read-only database; tested on 40 questions.",
+                    "textStyle": {
+                      "fontSize": "16pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Power BI   ",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#52514E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "star schema (3 facts, 4 dimensions), 68 DAX measures.",
+                    "textStyle": {
+                      "fontSize": "16pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

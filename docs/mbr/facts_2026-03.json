@@ -1,0 +1,168 @@
+{
+  "period": {
+    "month": "March 2026",
+    "year_to_date": "January-March 2026",
+    "same_period_last_year": "January-March 2025"
+  },
+  "data_label": "SIMULATED sales data (case study)",
+  "month": {
+    "revenue": "EUR 10.35 m",
+    "target": "EUR 10.99 m",
+    "vs_target": "-5.8%",
+    "revenue_same_month_last_year": "EUR 10.26 m",
+    "vs_last_year": "+0.9%"
+  },
+  "year_to_date": {
+    "revenue": "EUR 29.18 m",
+    "target": "EUR 30.60 m",
+    "gap_to_target": "EUR -1.42 m",
+    "vs_target": "-4.7%",
+    "revenue_last_year": "EUR 28.58 m",
+    "vs_last_year": "+2.1%",
+    "full_year_target": "EUR 120.87 m"
+  },
+  "regions": [
+    {
+      "region": "EMEA",
+      "revenue_ytd": "EUR 26.90 m",
+      "gap_to_target": "EUR -1.31 m",
+      "vs_target": "-4.6%",
+      "vs_last_year": "+1.9%"
+    },
+    {
+      "region": "APAC",
+      "revenue_ytd": "EUR 2.27 m",
+      "gap_to_target": "EUR -116 k",
+      "vs_target": "-4.9%",
+      "vs_last_year": "+4.0%"
+    }
+  ],
+  "countries_below_target": {
+    "count": 14,
+    "out_of": 19,
+    "largest_gaps": [
+      {
+        "country": "Germany",
+        "revenue_ytd": "EUR 5.96 m",
+        "gap_to_target": "EUR -636 k",
+        "vs_target": "-9.6%",
+        "vs_last_year": "-4.5%"
+      },
+      {
+        "country": "France",
+        "revenue_ytd": "EUR 6.72 m",
+        "gap_to_target": "EUR -343 k",
+        "vs_target": "-4.9%",
+        "vs_last_year": "+0.5%"
+      },
+      {
+        "country": "United Kingdom",
+        "revenue_ytd": "EUR 1.57 m",
+        "gap_to_target": "EUR -192 k",
+        "vs_target": "-10.9%",
+        "vs_last_year": "-5.8%"
+      }
+    ]
+  },
+  "countries_above_target_largest": [
+    {
+      "country": "Spain",
+      "revenue_ytd": "EUR 1.99 m",
+      "gap_to_target": "EUR 197 k",
+      "vs_target": "+11.0%",
+      "vs_last_year": "+19.6%"
+    },
+    {
+      "country": "Poland",
+      "revenue_ytd": "EUR 767 k",
+      "gap_to_target": "EUR 36 k",
+      "vs_target": "+4.9%",
+      "vs_last_year": "+22.6%"
+    },
+    {
+      "country": "Türkiye",
+      "revenue_ytd": "EUR 1.70 m",
+      "gap_to_target": "EUR 31 k",
+      "vs_target": "+1.8%",
+      "vs_last_year": "+23.6%"
+    }
+  ],
+  "product_lines": [
+    {
+      "product_line": "Coronary stents",
+      "revenue_ytd": "EUR 8.08 m",
+      "gap_to_target": "EUR -604 k",
+      "vs_target": "-7.0%",
+      "vs_last_year": "-1.8%"
+    },
+    {
+      "product_line": "PTCA balloons",
+      "revenue_ytd": "EUR 7.14 m",
+      "gap_to_target": "EUR -436 k",
+      "vs_target": "-5.8%",
+      "vs_last_year": "+0.1%"
+    },
+    {
+      "product_line": "Peripheral devices",
+      "revenue_ytd": "EUR 4.08 m",
+      "gap_to_target": "EUR -212 k",
+      "vs_target": "-4.9%",
+      "vs_last_year": "+0.7%"
+    },
+    {
+      "product_line": "Guidewires",
+      "revenue_ytd": "EUR 3.25 m",
+      "gap_to_target": "EUR -147 k",
+      "vs_target": "-4.3%",
+      "vs_last_year": "+3.6%"
+    },
+    {
+      "product_line": "Diagnostic catheters",
+      "revenue_ytd": "EUR 2.93 m",
+      "gap_to_target": "EUR -95 k",
+      "vs_target": "-3.1%",
+      "vs_last_year": "+4.6%"
+    },
+    {
+      "product_line": "Drug-coated balloons",
+      "revenue_ytd": "EUR 3.69 m",
+      "gap_to_target": "EUR 69 k",
+      "vs_target": "+1.9%",
+      "vs_last_year": "+14.3%"
+    }
+  ],
+  "price_volume_mix_ytd": {
+    "revenue_last_year": "EUR 28.58 m",
+    "volume_effect": "EUR 1.57 m",
+    "mix_effect": "EUR 242 k",
+    "price_effect": "EUR -1.21 m",
+    "revenue_this_year": "EUR 29.18 m",
+    "largest_price_erosion": {
+      "product_line": "Coronary stents",
+      "price_effect": "EUR -622 k",
+      "price_change": "-7.1%"
+    }
+  },
+  "at_risk_accounts": {
+    "rule": "last 3 months at least 30% below the same 3 months last year, accounts with at least EUR 30 k last year",
+    "count": 2,
+    "largest": [
+      {
+        "account_id": "BE-006",
+        "country": "Belgium",
+        "type": "Private hospital",
+        "revenue_last_3_months": "EUR 0 k",
+        "same_3_months_last_year": "EUR 47 k",
+        "change": "-100.0%"
+      },
+      {
+        "account_id": "GB-009",
+        "country": "United Kingdom",
+        "type": "Public general hospital",
+        "revenue_last_3_months": "EUR 27 k",
+        "same_3_months_last_year": "EUR 40 k",
+        "change": "-33.0%"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+table 'PVM Product'
+	lineageTag: 21d931ac-7bb8-5a01-b09d-e9ab0f1c30b1
+
+	column product_id
+		dataType: string
+		lineageTag: 696e5f3e-17e8-547f-b248-378e5aaba03c
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column product_line
+		dataType: string
+		lineageTag: e8b39ae3-622a-534b-b6e5-864b0364342f
+		summarizeBy: none
+		sourceColumn: product_line
+
+	column revenue_ly
+		dataType: double
+		formatString: #,0
+		lineageTag: 0f562972-e127-5078-9565-cbe22b9f3e9c
+		summarizeBy: none
+		sourceColumn: revenue_ly
+
+	column revenue_cy
+		dataType: double
+		formatString: #,0
+		lineageTag: ccbfcbc8-e4fe-57ae-bf22-0247941531d0
+		summarizeBy: none
+		sourceColumn: revenue_cy
+
+	column units_growth
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 022bf034-3b53-580d-b76e-bc2e5427ce14
+		summarizeBy: none
+		sourceColumn: units_growth
+
+	column price_effect
+		dataType: double
+		formatString: #,0
+		lineageTag: ae68b055-f35d-58cd-ae6c-636c4a03fbe8
+		summarizeBy: none
+		sourceColumn: price_effect
+
+	column price_change_pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: d60fee0d-1039-59d2-92ea-788728b27e57
+		summarizeBy: none
+		sourceColumn: price_change_pct
+
+	partition 'PVM Product' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\03_pvm_product.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"product_id", "product_line", "revenue_ly", "revenue_cy", "units_growth", "price_effect", "price_change_pct"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"product_id", type text}, {"product_line", type text}, {"revenue_ly", type number}, {"revenue_cy", type number}, {"units_growth", type number}, {"price_effect", type number}, {"price_change_pct", type number}}, "en-US")
+				in
+					Typed
+

@@ -1,0 +1,102 @@
+/// REAL: OECD coronary angioplasty counts (CM36_TRS), World Bank population, GDP and health spending
+table Country
+	lineageTag: 37d1c957-a3ef-59f8-952e-a2b2ab2225ff
+
+	column iso3
+		dataType: string
+		isKey
+		lineageTag: 01071e6f-aa75-5820-bdb5-e6c5fb9394c2
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column iso2
+		dataType: string
+		lineageTag: 5cc87396-2562-5c37-a240-5dd72b665b13
+		summarizeBy: none
+		sourceColumn: iso2
+
+	column country
+		dataType: string
+		lineageTag: 23dcff84-912f-519f-813e-a67e3cc84b62
+		summarizeBy: none
+		sourceColumn: country
+
+	column region
+		dataType: string
+		lineageTag: 99b4077e-b460-5f51-a2bc-ba7a40f6b086
+		summarizeBy: none
+		sourceColumn: region
+
+	column subregion
+		dataType: string
+		lineageTag: 415f5a2e-2d9d-5885-b516-f74bbbc04444
+		summarizeBy: none
+		sourceColumn: subregion
+
+	column pci_year
+		dataType: int64
+		formatString: 0
+		lineageTag: fefb74d2-ad74-54fa-a341-c1e20de60dbd
+		summarizeBy: none
+		sourceColumn: pci_year
+
+	column pci_procedures
+		dataType: int64
+		formatString: #,0
+		lineageTag: 145264e5-73a4-55de-8ba7-9346c2b31e19
+		summarizeBy: none
+		sourceColumn: pci_procedures
+
+	column pci_per_100k
+		dataType: double
+		formatString: 0
+		lineageTag: 0941dd8a-c5c0-5b92-98ff-f516a85ca9df
+		summarizeBy: none
+		sourceColumn: pci_per_100k
+
+	column pci_cagr
+		dataType: double
+		formatString: 0.0%
+		lineageTag: da7730d5-d8dc-5100-bf59-09c4601c76cb
+		summarizeBy: none
+		sourceColumn: pci_cagr
+
+	column population
+		dataType: int64
+		formatString: #,0
+		lineageTag: bd958357-4c37-509b-b322-bc30494451ce
+		summarizeBy: none
+		sourceColumn: population
+
+	column gdp_per_capita_usd
+		dataType: int64
+		formatString: #,0
+		lineageTag: baaf5588-5c00-55bf-84c5-fe9eb567b710
+		summarizeBy: none
+		sourceColumn: gdp_per_capita_usd
+
+	column health_exp_per_capita_usd
+		dataType: int64
+		formatString: #,0
+		lineageTag: e92397aa-932e-5034-9234-f3da9cb5c057
+		summarizeBy: none
+		sourceColumn: health_exp_per_capita_usd
+
+	column price_index
+		dataType: double
+		formatString: 0.00
+		lineageTag: 24a96259-7d6b-575e-9141-22155416c309
+		summarizeBy: none
+		sourceColumn: price_index
+
+	partition Country = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "clean\countries.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"iso3", "iso2", "country", "region", "subregion", "pci_year", "pci_procedures", "pci_per_100k", "pci_cagr", "population", "gdp_per_capita_usd", "health_exp_per_capita_usd", "price_index"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"iso3", type text}, {"iso2", type text}, {"country", type text}, {"region", type text}, {"subregion", type text}, {"pci_year", Int64.Type}, {"pci_procedures", Int64.Type}, {"pci_per_100k", type number}, {"pci_cagr", type number}, {"population", Int64.Type}, {"gdp_per_capita_usd", Int64.Type}, {"health_exp_per_capita_usd", Int64.Type}, {"price_index", type number}}, "en-US")
+				in
+					Typed
+

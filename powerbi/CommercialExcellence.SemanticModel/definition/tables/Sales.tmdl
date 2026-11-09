@@ -1,0 +1,63 @@
+/// SIMULATED invoiced sales: month x hospital x product line, Jan 2023 - Oct 2026 (src/generate_sales.py)
+table Sales
+	lineageTag: 6de9e4f8-feb9-5966-becb-af83536ee183
+
+	column month
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: efa97c7b-345f-5049-8fa6-730e48050720
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column account_id
+		dataType: string
+		lineageTag: 90c6b886-646b-5877-a24a-a41a51d8165f
+		summarizeBy: none
+		sourceColumn: account_id
+
+	column iso3
+		dataType: string
+		lineageTag: 7c03944a-de13-5976-b012-6df02fbe5c70
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column product_id
+		dataType: string
+		lineageTag: b0d0b6bd-ce7d-5ef7-9def-bc3dd3d8d468
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column units
+		dataType: int64
+		formatString: #,0
+		lineageTag: c5494ae7-f615-5f5c-8440-974a95ce5d48
+		summarizeBy: none
+		sourceColumn: units
+
+	column net_price_eur
+		dataType: double
+		formatString: #,0.00
+		lineageTag: fd0bfcd9-3a8d-545b-aa76-8051d81e249f
+		summarizeBy: none
+		sourceColumn: net_price_eur
+
+	column revenue_eur
+		dataType: double
+		formatString: #,0
+		lineageTag: 8adc5da3-2a5d-5aad-b298-43a5ac655b1c
+		summarizeBy: none
+		sourceColumn: revenue_eur
+
+	partition Sales = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "clean\sales.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"month", "account_id", "iso3", "product_id", "units", "net_price_eur", "revenue_eur"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"month", type date}, {"account_id", type text}, {"iso3", type text}, {"product_id", type text}, {"units", Int64.Type}, {"net_price_eur", type number}, {"revenue_eur", type number}}, "en-US")
+				in
+					Typed
+

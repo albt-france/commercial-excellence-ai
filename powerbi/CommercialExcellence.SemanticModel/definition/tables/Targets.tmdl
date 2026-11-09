@@ -1,0 +1,43 @@
+/// SIMULATED monthly targets 2024-2026
+table Targets
+	lineageTag: 3675983d-c718-5e92-be7a-e266c0e51b05
+
+	column month
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: 92095433-1518-58d4-8e8e-4e80c4415280
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column iso3
+		dataType: string
+		lineageTag: fdc4f9c4-4544-50fe-aef4-4e9a28cfcec2
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column product_id
+		dataType: string
+		lineageTag: 14d04636-7585-5e6f-80df-0fc80fd8f541
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column target_eur
+		dataType: double
+		formatString: #,0
+		lineageTag: 2c7f731a-052d-560c-b1b3-3f0518fe8964
+		summarizeBy: none
+		sourceColumn: target_eur
+
+	partition Targets = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "clean\targets.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"month", "iso3", "product_id", "target_eur"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"month", type date}, {"iso3", type text}, {"product_id", type text}, {"target_eur", type number}}, "en-US")
+				in
+					Typed
+

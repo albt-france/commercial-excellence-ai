@@ -1,0 +1,75 @@
+table 'Forecast Country'
+	lineageTag: e8291f1c-1b73-5a51-ba8f-621b0871243c
+
+	column iso3
+		dataType: string
+		lineageTag: 00d1b1a4-260f-537c-9a03-9bff0e92e32a
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column country
+		dataType: string
+		lineageTag: 3ca2abe0-367d-51e0-ae02-3d5e955e97ce
+		summarizeBy: none
+		sourceColumn: country
+
+	column revenue_ytd
+		dataType: double
+		formatString: #,0
+		lineageTag: eb24bf7d-830d-582c-b8fd-0c99c924699c
+		summarizeBy: none
+		sourceColumn: revenue_ytd
+
+	column forecast_nov_dec
+		dataType: double
+		formatString: #,0
+		lineageTag: 0c614adf-07bb-53ea-864a-8d7facc3804b
+		summarizeBy: none
+		sourceColumn: forecast_nov_dec
+
+	column forecast_fy
+		dataType: double
+		formatString: #,0
+		lineageTag: f2a20821-b77a-5a92-b48a-928f1fbc0b19
+		summarizeBy: none
+		sourceColumn: forecast_fy
+
+	column target_fy
+		dataType: double
+		formatString: #,0
+		lineageTag: 00f0f728-9b66-58ac-b0c2-94ff6169f636
+		summarizeBy: none
+		sourceColumn: target_fy
+
+	column gap_fy
+		dataType: double
+		formatString: #,0
+		lineageTag: e5ae6d91-5dfd-5730-b771-731792430916
+		summarizeBy: none
+		sourceColumn: gap_fy
+
+	column vs_target_fy
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 15c8e0d2-464b-574f-bd21-8d324663b466
+		summarizeBy: none
+		sourceColumn: vs_target_fy
+
+	column holdout_mape
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 3bf02805-77df-5c4a-bb0f-27213718ee26
+		summarizeBy: none
+		sourceColumn: holdout_mape
+
+	partition 'Forecast Country' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\05_forecast_country.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"iso3", "country", "revenue_ytd", "forecast_nov_dec", "forecast_fy", "target_fy", "gap_fy", "vs_target_fy", "holdout_mape"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"iso3", type text}, {"country", type text}, {"revenue_ytd", type number}, {"forecast_nov_dec", type number}, {"forecast_fy", type number}, {"target_fy", type number}, {"gap_fy", type number}, {"vs_target_fy", type number}, {"holdout_mape", type number}}, "en-US")
+				in
+					Typed
+

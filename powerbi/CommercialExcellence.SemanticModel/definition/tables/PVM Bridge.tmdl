@@ -1,0 +1,43 @@
+/// Price-volume-mix bridge, Jan-Oct 2025 -> 2026
+table 'PVM Bridge'
+	lineageTag: 004d8b11-2e58-50df-ab12-50cc12ffaf7b
+
+	column step_order
+		dataType: int64
+		isHidden
+		formatString: #,0
+		lineageTag: f0aa3401-c2d3-5299-8b91-b19dceb6920b
+		summarizeBy: none
+		sourceColumn: step_order
+
+	column step
+		dataType: string
+		lineageTag: 659b88c0-d9a9-5812-84ba-6f37676ae276
+		summarizeBy: none
+		sourceColumn: step
+		sortByColumn: step_order
+
+	column value
+		dataType: double
+		formatString: #,0
+		lineageTag: 685908c8-2910-5639-82d4-fffe33057389
+		summarizeBy: none
+		sourceColumn: value
+
+	column kind
+		dataType: string
+		lineageTag: 388b67f1-17ec-5c7e-891b-2c26f5107589
+		summarizeBy: none
+		sourceColumn: kind
+
+	partition 'PVM Bridge' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\03_pvm_total.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"step_order", "step", "value", "kind"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"step_order", Int64.Type}, {"step", type text}, {"value", type number}, {"kind", type text}}, "en-US")
+				in
+					Typed
+

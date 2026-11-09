@@ -1,0 +1,57 @@
+table 'Forecast Scenarios'
+	lineageTag: 6fde48cc-f67d-5b38-a12a-00352349b5ac
+
+	column scenario
+		dataType: string
+		lineageTag: 1f92d449-65f4-559d-a00a-e861f63b0157
+		summarizeBy: none
+		sourceColumn: scenario
+		sortByColumn: order
+
+	column revenue_fy
+		dataType: double
+		formatString: #,0
+		lineageTag: 966b2dcc-8d7f-54cd-a75d-67152ed4dd04
+		summarizeBy: none
+		sourceColumn: revenue_fy
+
+	column target_fy
+		dataType: double
+		formatString: #,0
+		lineageTag: f00b99d4-3c4e-50d4-9d2d-61c6ee1ac831
+		summarizeBy: none
+		sourceColumn: target_fy
+
+	column gap
+		dataType: double
+		formatString: #,0
+		lineageTag: 3cf94e60-eb99-5b15-8c1b-7030a281e596
+		summarizeBy: none
+		sourceColumn: gap
+
+	column vs_target
+		dataType: double
+		formatString: 0.0%
+		lineageTag: d4eaaa3b-8928-51dd-9449-76d1cc71bd95
+		summarizeBy: none
+		sourceColumn: vs_target
+
+	column order
+		dataType: int64
+		isHidden
+		formatString: #,0
+		lineageTag: af23c6e4-0f8e-5835-b8f1-5f91dd20c035
+		summarizeBy: none
+		sourceColumn: order
+
+	partition 'Forecast Scenarios' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\05_forecast_scenarios.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"scenario", "revenue_fy", "target_fy", "gap", "vs_target", "order"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"scenario", type text}, {"revenue_fy", type number}, {"target_fy", type number}, {"gap", type number}, {"vs_target", type number}, {"order", Int64.Type}}, "en-US")
+				in
+					Typed
+

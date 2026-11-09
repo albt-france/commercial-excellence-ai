@@ -1,0 +1,196 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "timeSaving",
+  "position": {
+    "x": 1262,
+    "y": 410,
+    "z": 10000,
+    "height": 297,
+    "width": 626,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI Time Saving"
+                    }
+                  },
+                  "Property": "task"
+                }
+              },
+              "queryRef": "AI Time Saving.task",
+              "nativeQueryRef": "task",
+              "displayName": "Task"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI Time Saving"
+                    }
+                  },
+                  "Property": "manual_hours"
+                }
+              },
+              "queryRef": "AI Time Saving.manual_hours",
+              "nativeQueryRef": "manual_hours",
+              "displayName": "By hand"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI Time Saving"
+                    }
+                  },
+                  "Property": "automated_hours"
+                }
+              },
+              "queryRef": "AI Time Saving.automated_hours",
+              "nativeQueryRef": "automated_hours",
+              "displayName": "Automated"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI Time Saving"
+                    }
+                  },
+                  "Property": "hours_saved"
+                }
+              },
+              "queryRef": "AI Time Saving.hours_saved",
+              "nativeQueryRef": "hours_saved",
+              "displayName": "Saved"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "AI Time Saving"
+                  }
+                },
+                "Property": "task"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#52514E'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Hours a month: by hand vs automated with review (assumptions in the README)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

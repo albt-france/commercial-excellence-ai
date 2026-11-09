@@ -1,0 +1,5 @@
+file,series,url,downloaded_on
+oecd_surg_proc_CM36_TRS.csv,"OECD.ELS.HD:DSD_HEALTH_PROC@DF_SURG_PROC(1.2) CM36_TRS, PRC + PRC_10P5PS","https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_SURG_PROC,1.2/DEU+AUT+CHE+FRA+BEL+NLD+ITA+ESP+PRT+GBR+SWE+POL+CZE+ROU+TUR+ISR+KOR+AUS+NZL..PRC+PRC_10P5PS.CM36_TRS..............?startPeriod=2014&dimensionAtObservation=AllDimensions",2026-11-09
+worldbank_SP.POP.TOTL.json,World Bank WDI SP.POP.TOTL,https://api.worldbank.org/v2/country/DEU;AUT;CHE;FRA;BEL;NLD;ITA;ESP;PRT;GBR;SWE;POL;CZE;ROU;TUR;ISR;KOR;AUS;NZL/indicator/SP.POP.TOTL?format=json&date=2014:2025&per_page=2000,2026-11-09
+worldbank_NY.GDP.PCAP.CD.json,World Bank WDI NY.GDP.PCAP.CD,https://api.worldbank.org/v2/country/DEU;AUT;CHE;FRA;BEL;NLD;ITA;ESP;PRT;GBR;SWE;POL;CZE;ROU;TUR;ISR;KOR;AUS;NZL/indicator/NY.GDP.PCAP.CD?format=json&date=2014:2025&per_page=2000,2026-11-09
+worldbank_SH.XPD.CHEX.PC.CD.json,World Bank WDI SH.XPD.CHEX.PC.CD,https://api.worldbank.org/v2/country/DEU;AUT;CHE;FRA;BEL;NLD;ITA;ESP;PRT;GBR;SWE;POL;CZE;ROU;TUR;ISR;KOR;AUS;NZL/indicator/SH.XPD.CHEX.PC.CD?format=json&date=2014:2025&per_page=2000,2026-11-09

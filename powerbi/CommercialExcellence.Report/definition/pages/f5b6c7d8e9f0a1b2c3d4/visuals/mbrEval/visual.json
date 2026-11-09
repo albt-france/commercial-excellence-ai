@@ -1,0 +1,204 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "mbrEval",
+  "position": {
+    "x": 613,
+    "y": 410,
+    "z": 9000,
+    "height": 297,
+    "width": 626,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI MBR Eval"
+                    }
+                  },
+                  "Property": "month"
+                }
+              },
+              "queryRef": "AI MBR Eval.month",
+              "nativeQueryRef": "month",
+              "displayName": "Month"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI MBR Eval"
+                    }
+                  },
+                  "Property": "numbers_cited"
+                }
+              },
+              "queryRef": "AI MBR Eval.numbers_cited",
+              "nativeQueryRef": "numbers_cited",
+              "displayName": "Numbers cited"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI MBR Eval"
+                    }
+                  },
+                  "Property": "unsupported_first_draft"
+                }
+              },
+              "queryRef": "AI MBR Eval.unsupported_first_draft",
+              "nativeQueryRef": "unsupported_first_draft",
+              "displayName": "Not found (draft)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI MBR Eval"
+                    }
+                  },
+                  "Property": "unsupported_final"
+                }
+              },
+              "queryRef": "AI MBR Eval.unsupported_final",
+              "nativeQueryRef": "unsupported_final",
+              "displayName": "Not found (published)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AI MBR Eval"
+                    }
+                  },
+                  "Property": "accepted"
+                }
+              },
+              "queryRef": "AI MBR Eval.accepted",
+              "nativeQueryRef": "accepted",
+              "displayName": "Accepted"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "AI MBR Eval"
+                  }
+                },
+                "Property": "month"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#52514E'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Monthly reviews generated for Jan-Oct 2026: numbers cited and numbers not found'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

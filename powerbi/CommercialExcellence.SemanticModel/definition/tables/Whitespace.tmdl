@@ -1,0 +1,95 @@
+/// Market size vs our share, untapped potential (sql/01_market_size.sql)
+table Whitespace
+	lineageTag: 2043bb40-91dc-515b-aa58-4a80eedd8fd9
+
+	column iso3
+		dataType: string
+		lineageTag: 2b38a1e5-a417-5bc8-bf37-92b722c6a39c
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column country
+		dataType: string
+		lineageTag: 3db6fca6-7f2d-5a1e-8105-2b161996f2c4
+		summarizeBy: none
+		sourceColumn: country
+
+	column region
+		dataType: string
+		lineageTag: 465e3f0f-57c6-5579-a293-901b029c019d
+		summarizeBy: none
+		sourceColumn: region
+
+	column market_value_eur
+		dataType: double
+		formatString: #,0
+		lineageTag: 9419a431-c27d-581f-9c90-f29e006ae5fa
+		summarizeBy: none
+		sourceColumn: market_value_eur
+
+	column revenue_l12m
+		dataType: double
+		formatString: #,0
+		lineageTag: cca0dfd6-cde7-5489-9b40-b65840afd825
+		summarizeBy: none
+		sourceColumn: revenue_l12m
+
+	column share_value
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 5ef23624-e49b-5f9c-a16c-a3da297732ad
+		summarizeBy: none
+		sourceColumn: share_value
+
+	column benchmark_share
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 64a0ffd9-a11e-5139-8454-43d05a861a68
+		summarizeBy: none
+		sourceColumn: benchmark_share
+
+	column untapped_potential_eur
+		dataType: double
+		formatString: #,0
+		lineageTag: 08fbad01-74b8-5cdc-afab-5334bb9682b7
+		summarizeBy: none
+		sourceColumn: untapped_potential_eur
+
+	column potential_rank
+		dataType: int64
+		formatString: #,0
+		lineageTag: f4825ebe-7a3a-53a0-b160-e9df0aefeade
+		summarizeBy: none
+		sourceColumn: potential_rank
+
+	column potential_share
+		dataType: double
+		formatString: 0%
+		lineageTag: 13589c75-fd56-5524-8b41-5ad378cbd280
+		summarizeBy: none
+		sourceColumn: potential_share
+
+	column quadrant
+		dataType: string
+		lineageTag: 1f3a59ce-2bed-5498-a66e-ec354f8d5ddc
+		summarizeBy: none
+		sourceColumn: quadrant
+
+	column revenue_growth_l12m
+		dataType: double
+		formatString: 0%
+		lineageTag: dbdca66e-d513-5759-b47b-76ab60158c46
+		summarizeBy: none
+		sourceColumn: revenue_growth_l12m
+
+	partition Whitespace = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\01_market_whitespace.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"iso3", "country", "region", "market_value_eur", "revenue_l12m", "share_value", "benchmark_share", "untapped_potential_eur", "potential_rank", "potential_share", "quadrant", "revenue_growth_l12m"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"iso3", type text}, {"country", type text}, {"region", type text}, {"market_value_eur", type number}, {"revenue_l12m", type number}, {"share_value", type number}, {"benchmark_share", type number}, {"untapped_potential_eur", type number}, {"potential_rank", Int64.Type}, {"potential_share", type number}, {"quadrant", type text}, {"revenue_growth_l12m", type number}}, "en-US")
+				in
+					Typed
+

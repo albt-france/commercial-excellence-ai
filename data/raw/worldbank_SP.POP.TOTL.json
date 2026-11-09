@@ -1,0 +1,3660 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 2000,
+  "total": 228,
+  "sourceid": "2",
+  "lastupdated": "2026-10-08"
+ },
+ [
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2025",
+   "value": 27614411,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2024",
+   "value": 27194286,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2023",
+   "value": 26659922,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2022",
+   "value": 26018721,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2021",
+   "value": 25685412,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2020",
+   "value": 25649248,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2019",
+   "value": 25334826,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2018",
+   "value": 24963258,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2017",
+   "value": 24592588,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2016",
+   "value": 24190907,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2015",
+   "value": 23815995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2014",
+   "value": 23475686,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2025",
+   "value": 9208163,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2024",
+   "value": 9177982,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2023",
+   "value": 9131761,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2022",
+   "value": 9041851,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2021",
+   "value": 8955797,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2020",
+   "value": 8916864,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2019",
+   "value": 8879920,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2018",
+   "value": 8840521,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2017",
+   "value": 8797566,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2016",
+   "value": 8736668,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2015",
+   "value": 8642699,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2014",
+   "value": 8546356,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2025",
+   "value": 11941781,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2024",
+   "value": 11858610,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2023",
+   "value": 11779946,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2022",
+   "value": 11680210,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2021",
+   "value": 11586195,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2020",
+   "value": 11538604,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2019",
+   "value": 11488980,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2018",
+   "value": 11427054,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2017",
+   "value": 11375158,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2016",
+   "value": 11331422,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2015",
+   "value": 11274196,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2014",
+   "value": 11209057,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2025",
+   "value": 9092436,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2024",
+   "value": 9005582,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2023",
+   "value": 8888822,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2022",
+   "value": 8777088,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2021",
+   "value": 8704546,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2020",
+   "value": 8638167,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2019",
+   "value": 8575280,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2018",
+   "value": 8514329,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2017",
+   "value": 8451840,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2016",
+   "value": 8373338,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2015",
+   "value": 8282396,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2014",
+   "value": 8188649,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2025",
+   "value": 10886878,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2024",
+   "value": 10905028,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2023",
+   "value": 10864042,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2022",
+   "value": 10672118,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2021",
+   "value": 10505772,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2020",
+   "value": 10697858,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2019",
+   "value": 10671870,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2018",
+   "value": 10629928,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2017",
+   "value": 10594438,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2016",
+   "value": 10566332,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2015",
+   "value": 10546059,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2014",
+   "value": 10525347,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2025",
+   "value": 83491249,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2024",
+   "value": 83516593,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2023",
+   "value": 83287273,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2022",
+   "value": 83177813,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2021",
+   "value": 83196078,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2020",
+   "value": 83160871,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2019",
+   "value": 83092962,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2018",
+   "value": 82905782,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2017",
+   "value": 82657002,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2016",
+   "value": 82348669,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2015",
+   "value": 81686611,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2014",
+   "value": 80982500,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2025",
+   "value": 49355143,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2024",
+   "value": 48848840,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2023",
+   "value": 48352528,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2022",
+   "value": 47786102,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2021",
+   "value": 47443821,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2020",
+   "value": 47359424,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2019",
+   "value": 47118501,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2018",
+   "value": 46782011,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2017",
+   "value": 46571232,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2016",
+   "value": 46458139,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2015",
+   "value": 46422303,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2014",
+   "value": 46460733,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2025",
+   "value": 68720337,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2024",
+   "value": 68551653,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2023",
+   "value": 68372286,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2022",
+   "value": 68184457,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2021",
+   "value": 67842811,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2020",
+   "value": 67601110,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2019",
+   "value": 67382061,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2018",
+   "value": 67158348,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2017",
+   "value": 66918020,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2016",
+   "value": 66724104,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2015",
+   "value": 66548272,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2014",
+   "value": 66312067,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2025",
+   "value": 69487000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2024",
+   "value": 69281000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2023",
+   "value": 68526000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2022",
+   "value": 67636000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2021",
+   "value": 66978000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2020",
+   "value": 66740000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2019",
+   "value": 66628000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2018",
+   "value": 66287000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2017",
+   "value": 65964000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2016",
+   "value": 65606000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2015",
+   "value": 65087000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2014",
+   "value": 64619000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2025",
+   "value": 10122800,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2024",
+   "value": 10002200,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2023",
+   "value": 9849000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2022",
+   "value": 9557500,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2021",
+   "value": 9371400,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2020",
+   "value": 9215100,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2019",
+   "value": 9054000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2018",
+   "value": 8882800,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2017",
+   "value": 8713300,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2016",
+   "value": 8546000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2015",
+   "value": 8380100,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2014",
+   "value": 8215700,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2025",
+   "value": 58915656,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2024",
+   "value": 58952704,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2023",
+   "value": 58984216,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2022",
+   "value": 59013667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2021",
+   "value": 59133173,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2020",
+   "value": 59438851,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2019",
+   "value": 59729081,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2018",
+   "value": 59877221,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2017",
+   "value": 60002252,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2016",
+   "value": 60115223,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2015",
+   "value": 60229605,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2014",
+   "value": 60320707,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2025",
+   "value": 51684564,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2024",
+   "value": 51751065,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2023",
+   "value": 51712619,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2022",
+   "value": 51672569,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2021",
+   "value": 51769539,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2020",
+   "value": 51836239,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2019",
+   "value": 51764822,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2018",
+   "value": 51585058,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2017",
+   "value": 51361911,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2016",
+   "value": 51217803,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2015",
+   "value": 51014947,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2014",
+   "value": 50746659,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2025",
+   "value": 18087633,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2024",
+   "value": 17993485,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2023",
+   "value": 17877117,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2022",
+   "value": 17700982,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2021",
+   "value": 17533044,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2020",
+   "value": 17441500,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2019",
+   "value": 17344874,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2018",
+   "value": 17231624,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2017",
+   "value": 17131296,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2016",
+   "value": 17030314,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2015",
+   "value": 16939923,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2014",
+   "value": 16865008,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2025",
+   "value": 5324700,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2024",
+   "value": 5290000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2023",
+   "value": 5200000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2022",
+   "value": 5081700,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2021",
+   "value": 5084600,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2020",
+   "value": 5072400,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2019",
+   "value": 4970300,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2018",
+   "value": 4900600,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2017",
+   "value": 4813600,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2016",
+   "value": 4714100,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2015",
+   "value": 4609400,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2014",
+   "value": 4516500,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2025",
+   "value": 36435861,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2024",
+   "value": 36559233,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2023",
+   "value": 36687353,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2022",
+   "value": 36821749,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2021",
+   "value": 36981559,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2020",
+   "value": 37515748,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2019",
+   "value": 37965475,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2018",
+   "value": 37974750,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2017",
+   "value": 37974826,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2016",
+   "value": 37970087,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2015",
+   "value": 37986412,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2014",
+   "value": 38011735,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2025",
+   "value": 10804871,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2024",
+   "value": 10694681,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2023",
+   "value": 10578174,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2022",
+   "value": 10434332,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2021",
+   "value": 10361831,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2020",
+   "value": 10297081,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2019",
+   "value": 10286263,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2018",
+   "value": 10283822,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2017",
+   "value": 10300300,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2016",
+   "value": 10325452,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2015",
+   "value": 10358076,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2014",
+   "value": 10401062,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2025",
+   "value": 19020271,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2024",
+   "value": 19051804,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2023",
+   "value": 19061062,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2022",
+   "value": 19048502,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2021",
+   "value": 19122059,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2020",
+   "value": 19265250,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2019",
+   "value": 19371648,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2018",
+   "value": 19473970,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2017",
+   "value": 19588715,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2016",
+   "value": 19702267,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2015",
+   "value": 19815616,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2014",
+   "value": 19908979,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2025",
+   "value": 10596620,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2024",
+   "value": 10569709,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2023",
+   "value": 10536632,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2022",
+   "value": 10486941,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2021",
+   "value": 10415811,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2020",
+   "value": 10353442,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2019",
+   "value": 10278887,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2018",
+   "value": 10175214,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2017",
+   "value": 10057698,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2016",
+   "value": 9923085,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2015",
+   "value": 9799186,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2014",
+   "value": 9696110,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2025",
+   "value": 85878556,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2024",
+   "value": 85518661,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2023",
+   "value": 85325965,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2022",
+   "value": 84979913,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2021",
+   "value": 84147318,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2020",
+   "value": 83384680,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2019",
+   "value": 82579440,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2018",
+   "value": 81407204,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2017",
+   "value": 80312698,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2016",
+   "value": 79277962,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2015",
+   "value": 78218479,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "SP.POP.TOTL",
+    "value": "Population, total"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2014",
+   "value": 77181884,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  }
+ ]
+]

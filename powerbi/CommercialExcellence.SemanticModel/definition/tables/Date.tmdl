@@ -1,0 +1,73 @@
+table Date
+	lineageTag: c2625a54-fc10-5a3b-85ad-ed3d41bab76e
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: dd mmm yyyy
+		lineageTag: accc440d-caa6-5cac-821a-339510400d12
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Month
+		dataType: string
+		lineageTag: f39cb281-137f-5a88-b2c1-3a0ddacf854e
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: MonthKey
+
+	column MonthKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 1ff58b72-2ef4-5685-b2ab-20952041db56
+		summarizeBy: none
+		sourceColumn: MonthKey
+
+	column MonthStart
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: b85adbea-0978-5d0d-8fbd-131599217409
+		summarizeBy: none
+		sourceColumn: MonthStart
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: d28ae7fc-c40f-5833-9b37-c87c09846849
+		summarizeBy: none
+		sourceColumn: Year
+
+	column MonthNo
+		dataType: int64
+		formatString: 0
+		lineageTag: ceae4b01-432e-57c4-b0a1-e78b66187ccc
+		summarizeBy: none
+		sourceColumn: MonthNo
+
+	column Quarter
+		dataType: string
+		lineageTag: 1ffad876-1801-5eb6-b0a8-97702cef9ce4
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	partition Date = m
+		mode: import
+		source =
+				let
+					Dates = List.Dates(#date(2023, 1, 1), Duration.Days(#date(2026, 12, 31) - #date(2023, 1, 1)) + 1, #duration(1, 0, 0, 0)),
+					T = Table.FromList(Dates, Splitter.SplitByNothing(), type table [Date = date]),
+					M = Table.AddColumn(T, "Month", each Date.ToText([Date], "MMM yyyy", "en-US"), type text),
+					K = Table.AddColumn(M, "MonthKey", each Date.Year([Date]) * 100 + Date.Month([Date]), Int64.Type),
+					S = Table.AddColumn(K, "MonthStart", each Date.StartOfMonth([Date]), type date),
+					Y = Table.AddColumn(S, "Year", each Date.Year([Date]), Int64.Type),
+					N = Table.AddColumn(Y, "MonthNo", each Date.Month([Date]), Int64.Type),
+					Typed = Table.AddColumn(N, "Quarter", each "Q" & Text.From(Date.QuarterOfYear([Date])), type text)
+				in
+					Typed
+

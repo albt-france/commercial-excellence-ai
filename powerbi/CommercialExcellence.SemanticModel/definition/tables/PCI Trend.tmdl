@@ -1,0 +1,42 @@
+/// REAL OECD procedure counts by year
+table 'PCI Trend'
+	lineageTag: 8df6191f-a156-5b86-8b84-253e96471163
+
+	column iso3
+		dataType: string
+		lineageTag: a2ac42a6-7407-501c-89f9-212e069064fe
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 6391e384-77ad-5830-b298-32ac67e0d622
+		summarizeBy: none
+		sourceColumn: year
+
+	column pci_procedures
+		dataType: int64
+		formatString: #,0
+		lineageTag: c16b3ecf-5275-5d8b-a1c3-cb634f75ac84
+		summarizeBy: none
+		sourceColumn: pci_procedures
+
+	column pci_per_100k
+		dataType: double
+		formatString: 0
+		lineageTag: 0391a6d9-7b7c-5e62-a6aa-af072088f1fa
+		summarizeBy: none
+		sourceColumn: pci_per_100k
+
+	partition 'PCI Trend' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\01_market_trend.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"iso3", "year", "pci_procedures", "pci_per_100k"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"iso3", type text}, {"year", Int64.Type}, {"pci_procedures", Int64.Type}, {"pci_per_100k", type number}}, "en-US")
+				in
+					Typed
+

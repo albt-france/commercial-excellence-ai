@@ -1,0 +1,11 @@
+month,mode,numbers_cited,unsupported_first_draft,unsupported_first_draft_values,attempts,unsupported_final,accepted,words
+2026-01,llm,55,0,,1,0,True,411
+2026-02,llm,62,0,,1,0,True,448
+2026-03,llm,63,0,,1,0,True,403
+2026-04,llm,62,0,,1,0,True,389
+2026-05,llm,59,0,,1,0,True,403
+2026-06,llm,68,0,,1,0,True,411
+2026-07,llm,66,0,,1,0,True,395
+2026-08,llm,78,0,,1,0,True,472
+2026-09,llm,83,0,,1,0,True,481
+2026-10,llm,71,0,,1,0,True,437

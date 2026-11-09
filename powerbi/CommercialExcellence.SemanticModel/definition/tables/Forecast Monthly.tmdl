@@ -1,0 +1,51 @@
+table 'Forecast Monthly'
+	lineageTag: c706b187-c2dc-58b9-99f8-222de85d36f4
+
+	column month
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: 72b4b926-0fab-5175-ba0b-ea13b22f914c
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column actual
+		dataType: double
+		formatString: #,0
+		lineageTag: 7f64ce30-c5e5-5aaa-8a24-0ed908f5f335
+		summarizeBy: none
+		sourceColumn: actual
+
+	column holdout_pred
+		dataType: double
+		formatString: #,0
+		lineageTag: c765ea31-fe8e-57b3-8eba-0e427c8f14b8
+		summarizeBy: none
+		sourceColumn: holdout_pred
+
+	column forecast
+		dataType: double
+		formatString: #,0
+		lineageTag: 794fcb07-2716-57f0-ba88-b337dc2ab652
+		summarizeBy: none
+		sourceColumn: forecast
+
+	column target
+		dataType: double
+		formatString: #,0
+		lineageTag: 82e8fee4-ae3a-554e-9d25-9663e5382807
+		summarizeBy: none
+		sourceColumn: target
+
+	partition 'Forecast Monthly' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\05_forecast_monthly.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"month", "actual", "holdout_pred", "forecast", "target"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"month", type date}, {"actual", type number}, {"holdout_pred", type number}, {"forecast", type number}, {"target", type number}}, "en-US")
+				in
+					Typed
+

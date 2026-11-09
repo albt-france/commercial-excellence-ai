@@ -1,0 +1,12 @@
+test,passed
+Number check accepts the template built from the facts,True
+Number check rejects a summary with one altered figure,True
+Number check rejects an invented statistic,True
+SQL guard blocks: DROP TABLE sales,True
+SQL guard blocks: SELECT 1; DELETE FROM sales,True
+SQL guard blocks: SELECT * FROM read_csv_auto('data/clean/sales.csv'),True
+SQL guard blocks: COPY sales TO 'leak.csv',True
+SQL guard blocks: ATTACH 'other.duckdb',True
+SQL guard blocks: UPDATE targets SET target_eur = 0,True
+Read-only connection refuses: CREATE TABLE x AS SELECT 1,True
+Read-only connection refuses: SELECT * FROM read_csv_auto('data/clean/sales.csv'),True

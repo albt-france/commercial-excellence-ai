@@ -1,0 +1,26 @@
+table 'AI Guards'
+	lineageTag: 50b8305a-9ee3-550f-919d-fed53f6a2495
+
+	column test
+		dataType: string
+		lineageTag: 67e4ccfb-3c59-5b6c-a939-2a71f2bb8517
+		summarizeBy: none
+		sourceColumn: test
+
+	column passed
+		dataType: boolean
+		lineageTag: 1d84c251-030a-5ea7-9d96-0b46d73bdfb0
+		summarizeBy: none
+		sourceColumn: passed
+
+	partition 'AI Guards' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\ai_eval_guards.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"test", "passed"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"test", type text}, {"passed", type logical}}, "en-US")
+				in
+					Typed
+

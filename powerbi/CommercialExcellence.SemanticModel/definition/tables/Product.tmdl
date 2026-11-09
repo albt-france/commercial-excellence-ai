@@ -1,0 +1,55 @@
+/// Generic product lines (no brand names)
+table Product
+	lineageTag: 26c7b571-038c-52aa-b25a-9ab6acf4cb9f
+
+	column product_id
+		dataType: string
+		isKey
+		lineageTag: cc2fc35b-7053-52dc-9252-0aba31506c6d
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column product_line
+		dataType: string
+		lineageTag: effd2989-24cc-55ce-87dc-9807df21d206
+		summarizeBy: none
+		sourceColumn: product_line
+
+	column family
+		dataType: string
+		lineageTag: f906c881-b45d-57d8-8e1b-d5b9cd64dbb2
+		summarizeBy: none
+		sourceColumn: family
+
+	column units_per_pci
+		dataType: double
+		formatString: 0.00
+		lineageTag: 19a118a4-ab27-5c03-a4ad-40bd1811fcc4
+		summarizeBy: none
+		sourceColumn: units_per_pci
+
+	column ref_price_eur
+		dataType: double
+		formatString: #,0
+		lineageTag: c9c66730-8eaa-52c4-852c-eec90601bc6e
+		summarizeBy: none
+		sourceColumn: ref_price_eur
+
+	column price_erosion
+		dataType: double
+		formatString: 0.0%
+		lineageTag: e750d8d3-bf90-58b7-ad4b-3756781f770e
+		summarizeBy: none
+		sourceColumn: price_erosion
+
+	partition Product = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "clean\products.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"product_id", "product_line", "family", "units_per_pci", "ref_price_eur", "price_erosion"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"product_id", type text}, {"product_line", type text}, {"family", type text}, {"units_per_pci", type number}, {"ref_price_eur", type number}, {"price_erosion", type number}}, "en-US")
+				in
+					Typed
+

@@ -1,0 +1,56 @@
+account_id,iso3,event,event_month,keeps_share
+DE-012,DEU,competitor win (volume falls over 3 months),2026-08,0.0
+FR-029,FRA,competitor win (volume falls over 3 months),2026-06,0.5
+FR-033,FRA,competitor win (volume falls over 3 months),2026-04,0.3
+FR-054,FRA,competitor win (volume falls over 3 months),2026-08,0.0
+BE-007,BEL,competitor win (volume falls over 3 months),2026-05,0.3
+NL-001,NLD,competitor win (volume falls over 3 months),2026-06,0.6
+IT-032,ITA,competitor win (volume falls over 3 months),2026-05,0.6
+IT-035,ITA,competitor win (volume falls over 3 months),2026-08,0.6
+GB-002,GBR,competitor win (volume falls over 3 months),2026-07,0.0
+AU-007,AUS,competitor win (volume falls over 3 months),2026-06,0.6
+DE-057,DEU,churn (stops buying),2023-09,0.0
+FR-038,FRA,churn (stops buying),2024-06,0.0
+BE-005,BEL,churn (stops buying),2023-10,0.0
+BE-006,BEL,churn (stops buying),2025-06,0.0
+IT-015,ITA,churn (stops buying),2023-11,0.0
+IT-034,ITA,churn (stops buying),2025-01,0.0
+GB-001,GBR,churn (stops buying),2024-07,0.0
+GB-015,GBR,churn (stops buying),2023-12,0.0
+PL-007,POL,churn (stops buying),2024-11,0.0
+TR-020,TUR,churn (stops buying),2025-03,0.0
+AT-007,AUT,new account (6-month ramp-up),2026-01,
+CH-009,CHE,new account (6-month ramp-up),2026-06,
+FR-070,FRA,new account (6-month ramp-up),2025-09,
+NL-010,NLD,new account (6-month ramp-up),2025-03,
+IT-038,ITA,new account (6-month ramp-up),2025-10,
+ES-019,ESP,new account (6-month ramp-up),2025-01,
+ES-020,ESP,new account (6-month ramp-up),2025-07,
+ES-021,ESP,new account (6-month ramp-up),2025-04,
+PL-008,POL,new account (6-month ramp-up),2026-04,
+PL-009,POL,new account (6-month ramp-up),2026-01,
+PL-010,POL,new account (6-month ramp-up),2026-01,
+PL-011,POL,new account (6-month ramp-up),2026-01,
+CZ-007,CZE,new account (6-month ramp-up),2025-01,
+RO-007,ROU,new account (6-month ramp-up),2026-01,
+RO-008,ROU,new account (6-month ramp-up),2025-12,
+RO-009,ROU,new account (6-month ramp-up),2026-04,
+TR-026,TUR,new account (6-month ramp-up),2026-03,
+TR-027,TUR,new account (6-month ramp-up),2025-12,
+TR-028,TUR,new account (6-month ramp-up),2025-08,
+TR-029,TUR,new account (6-month ramp-up),2025-10,
+TR-030,TUR,new account (6-month ramp-up),2025-10,
+TR-031,TUR,new account (6-month ramp-up),2025-06,
+TR-032,TUR,new account (6-month ramp-up),2025-10,
+TR-033,TUR,new account (6-month ramp-up),2025-04,
+TR-034,TUR,new account (6-month ramp-up),2026-06,
+TR-035,TUR,new account (6-month ramp-up),2026-04,
+TR-036,TUR,new account (6-month ramp-up),2025-01,
+TR-037,TUR,new account (6-month ramp-up),2025-10,
+IL-008,ISR,new account (6-month ramp-up),2025-08,
+KR-011,KOR,new account (6-month ramp-up),2025-05,
+KR-012,KOR,new account (6-month ramp-up),2025-03,
+KR-013,KOR,new account (6-month ramp-up),2026-03,
+KR-014,KOR,new account (6-month ramp-up),2025-04,
+AU-012,AUS,new account (6-month ramp-up),2025-03,
+AU-013,AUS,new account (6-month ramp-up),2026-01,

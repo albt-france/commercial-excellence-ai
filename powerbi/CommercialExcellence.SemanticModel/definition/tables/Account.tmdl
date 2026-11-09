@@ -1,0 +1,139 @@
+/// SIMULATED hospitals, with the account scorecard of sql/04_account_risk.sql (segment, risk flag, Pareto rank)
+table Account
+	lineageTag: efd4a9f3-f4c0-5927-b4d2-2fe2440176c5
+
+	column account_id
+		dataType: string
+		isKey
+		lineageTag: 13293304-6587-5733-ad5f-be8700ca6f2a
+		summarizeBy: none
+		sourceColumn: account_id
+
+	column account_name
+		dataType: string
+		lineageTag: 6f19cfc2-aecd-5e51-8918-619906f1e271
+		summarizeBy: none
+		sourceColumn: account_name
+
+	column account_type
+		dataType: string
+		lineageTag: c345f954-8ff8-5fce-9241-f1bd2f17a782
+		summarizeBy: none
+		sourceColumn: account_type
+
+	column country
+		dataType: string
+		lineageTag: e1340dfc-0ab9-5019-a779-0eaf5a5849e0
+		summarizeBy: none
+		sourceColumn: country
+
+	column region
+		dataType: string
+		lineageTag: b5ae9e6e-b13f-5efe-bb64-789ac4241c36
+		summarizeBy: none
+		sourceColumn: region
+
+	column first_invoice
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		lineageTag: 7651c4f8-6593-51d2-8346-67504d67c705
+		summarizeBy: none
+		sourceColumn: first_invoice
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column revenue_l12m
+		dataType: double
+		formatString: #,0
+		lineageTag: 00c4ce70-e2a8-5a3f-85ca-efd99481864a
+		summarizeBy: none
+		sourceColumn: revenue_l12m
+
+	column revenue_p12m
+		dataType: double
+		formatString: #,0
+		lineageTag: 2e3a4e08-32a8-5c4d-8691-fe06237d2127
+		summarizeBy: none
+		sourceColumn: revenue_p12m
+
+	column revenue_l3m
+		dataType: double
+		formatString: #,0
+		lineageTag: 5a08cc42-6233-5b54-8788-9ae045e0e902
+		summarizeBy: none
+		sourceColumn: revenue_l3m
+
+	column revenue_l3m_ly
+		dataType: double
+		formatString: #,0
+		lineageTag: 65ab7cee-4384-5818-a48c-570446bd7744
+		summarizeBy: none
+		sourceColumn: revenue_l3m_ly
+
+	column growth_l12m
+		dataType: double
+		formatString: 0%
+		lineageTag: fd235a46-d42d-5120-a6f6-79f9ae4cff94
+		summarizeBy: none
+		sourceColumn: growth_l12m
+
+	column growth_l3m
+		dataType: double
+		formatString: 0%
+		lineageTag: e43752d4-405b-5b9a-9ca4-55383cd061c4
+		summarizeBy: none
+		sourceColumn: growth_l3m
+
+	column is_new_account
+		dataType: boolean
+		lineageTag: 256ff9e7-b793-52a8-bc3b-fbae6d06620f
+		summarizeBy: none
+		sourceColumn: is_new_account
+
+	column risk_flag
+		dataType: string
+		lineageTag: ccf01e28-1ede-535e-8298-7989c6169009
+		summarizeBy: none
+		sourceColumn: risk_flag
+
+	column revenue_rank
+		dataType: int64
+		formatString: #,0
+		lineageTag: c48291c3-170d-5eb8-b78c-6ebfea0f67e0
+		summarizeBy: none
+		sourceColumn: revenue_rank
+
+	column cum_revenue_share
+		dataType: double
+		formatString: 0.0%
+		lineageTag: e809bab5-2ace-5809-8c58-390759045a80
+		summarizeBy: none
+		sourceColumn: cum_revenue_share
+
+	column size_percentile
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 693f7183-3869-508d-ae46-c25665aaa100
+		summarizeBy: none
+		sourceColumn: size_percentile
+
+	column segment
+		dataType: string
+		lineageTag: c0b1e63e-5f8e-5290-b506-7ccff755f1d1
+		summarizeBy: none
+		sourceColumn: segment
+
+	partition Account = m
+		mode: import
+		source =
+				let
+					Base = Table.SelectColumns(Table.PromoteHeaders(Csv.Document(File.Contents(DataFolder & "clean\accounts.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]), [PromoteAllScalars=true]), {"account_id", "account_name", "account_type"}),
+					Card = Table.PromoteHeaders(Csv.Document(File.Contents(DataFolder & "output\04_accounts.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]), [PromoteAllScalars=true]),
+					CardCols = Table.SelectColumns(Card, {"account_id", "country", "region", "first_invoice", "revenue_l12m", "revenue_p12m", "revenue_l3m", "revenue_l3m_ly", "growth_l12m", "growth_l3m", "is_new_account", "risk_flag", "revenue_rank", "cum_revenue_share", "size_percentile", "segment"}),
+					Merged = Table.NestedJoin(Base, {"account_id"}, CardCols, {"account_id"}, "card", JoinKind.LeftOuter),
+					Expanded = Table.ExpandTableColumn(Merged, "card", {"country", "region", "first_invoice", "revenue_l12m", "revenue_p12m", "revenue_l3m", "revenue_l3m_ly", "growth_l12m", "growth_l3m", "is_new_account", "risk_flag", "revenue_rank", "cum_revenue_share", "size_percentile", "segment"}),
+					Filled = Table.ReplaceValue(Table.ReplaceValue(Expanded, null, "6 · No sales in the last 24 months", Replacer.ReplaceValue, {"segment"}), null, "Inactive", Replacer.ReplaceValue, {"risk_flag"}),
+					Typed = Table.TransformColumnTypes(Filled, {{"account_id", type text}, {"account_name", type text}, {"account_type", type text}, {"country", type text}, {"region", type text}, {"first_invoice", type date}, {"revenue_l12m", type number}, {"revenue_p12m", type number}, {"revenue_l3m", type number}, {"revenue_l3m_ly", type number}, {"growth_l12m", type number}, {"growth_l3m", type number}, {"is_new_account", type logical}, {"risk_flag", type text}, {"revenue_rank", Int64.Type}, {"cum_revenue_share", type number}, {"size_percentile", type number}, {"segment", type text}}, "en-US")
+				in
+					Typed
+

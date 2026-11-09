@@ -1,0 +1,12 @@
+duckdb
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+pyarrow
+jupyter
+nbformat
+nbconvert
+anthropic
+python-dotenv

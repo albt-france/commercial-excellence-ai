@@ -1,0 +1,353 @@
+table _Measures
+	lineageTag: 5890d8f0-da44-5726-b224-0861b10c1f66
+
+	measure Revenue = SUM ( Sales[revenue_eur] )
+		formatString: #,0
+		displayFolder: 1 Sales
+		lineageTag: 76925408-be3a-5e79-8148-27066d38679a
+
+	measure 'Revenue (EUR m)' = DIVIDE ( [Revenue], 1000000 )
+		formatString: #,0.0
+		displayFolder: 1 Sales
+		lineageTag: a61b5850-8175-5fbc-9e07-b40c06e4fb23
+
+	measure Units = SUM ( Sales[units] )
+		formatString: #,0
+		displayFolder: 1 Sales
+		lineageTag: d3fa268f-4e31-5b0e-94eb-d712fb08cf19
+
+	measure 'Avg Net Price' = DIVIDE ( [Revenue], [Units] )
+		formatString: #,0.00
+		displayFolder: 1 Sales
+		lineageTag: 7ecf6c45-65b9-544d-8259-ec171e6877a3
+
+	measure 'As-of Month' = CALCULATE ( MAX ( Sales[month] ), REMOVEFILTERS () )
+		formatString: mmm yyyy
+		displayFolder: 1 Sales
+		lineageTag: e540f296-f419-57ae-9a7e-6030822b0f3f
+
+	measure 'Revenue YTD' = VAR a = [As-of Month] RETURN CALCULATE ( [Revenue], DATESBETWEEN ( 'Date'[Date], DATE ( YEAR ( a ), 1, 1 ), EOMONTH ( a, 0 ) ) )
+		formatString: #,0
+		displayFolder: 1 Sales
+		lineageTag: 61700b0d-0881-5b0a-bd85-3b5b81bddea3
+
+	measure 'Revenue YTD (EUR m)' = DIVIDE ( [Revenue YTD], 1000000 )
+		formatString: #,0.0
+		displayFolder: 1 Sales
+		lineageTag: 23766e18-df2f-5d66-a9be-946bac4f5311
+
+	measure 'Revenue YTD LY' = VAR a = [As-of Month] RETURN CALCULATE ( [Revenue], DATESBETWEEN ( 'Date'[Date], DATE ( YEAR ( a ) - 1, 1, 1 ), EOMONTH ( EDATE ( a, -12 ), 0 ) ) )
+		formatString: #,0
+		displayFolder: 1 Sales
+		lineageTag: c2de3f89-c355-584f-aeac-3151c7e8caff
+
+	measure 'Revenue YTD Growth' = DIVIDE ( [Revenue YTD], [Revenue YTD LY] ) - 1
+		formatString: +0.0%;-0.0%
+		displayFolder: 1 Sales
+		lineageTag: c2d188c5-52d3-59d6-bd0a-343eecd6783a
+
+	measure 'Revenue L12M' = VAR a = [As-of Month] RETURN CALCULATE ( [Revenue], DATESBETWEEN ( 'Date'[Date], EDATE ( a, -11 ), EOMONTH ( a, 0 ) ) )
+		formatString: #,0
+		displayFolder: 1 Sales
+		lineageTag: 6e684e62-2371-51bd-b747-e7fe686dbb23
+
+	measure 'Revenue LY' = CALCULATE ( [Revenue], DATEADD ( 'Date'[Date], -1, YEAR ) )
+		formatString: #,0
+		displayFolder: 1 Sales
+		lineageTag: 75458856-9e8d-5176-ac31-f9e5ff262913
+
+	measure 'Revenue YoY' = DIVIDE ( [Revenue], [Revenue LY] ) - 1
+		formatString: +0.0%;-0.0%
+		displayFolder: 1 Sales
+		lineageTag: 929d6185-1d1f-5326-8a1f-55048723db00
+
+	measure Target = SUM ( Targets[target_eur] )
+		formatString: #,0
+		displayFolder: 2 Targets
+		lineageTag: 38e2cce7-a840-5624-99f7-390fa7886680
+
+	measure 'Target YTD' = VAR a = [As-of Month] RETURN CALCULATE ( [Target], DATESBETWEEN ( 'Date'[Date], DATE ( YEAR ( a ), 1, 1 ), EOMONTH ( a, 0 ) ) )
+		formatString: #,0
+		displayFolder: 2 Targets
+		lineageTag: ef1802b1-7d17-5f98-90cc-aaf84c31050d
+
+	measure 'Target YTD (EUR m)' = DIVIDE ( [Target YTD], 1000000 )
+		formatString: #,0.0
+		displayFolder: 2 Targets
+		lineageTag: fdf62b68-94c9-589d-97e9-1c795dcaea7d
+
+	measure 'Gap to Target YTD' = [Revenue YTD] - [Target YTD]
+		formatString: #,0
+		displayFolder: 2 Targets
+		lineageTag: 2bd9fa8f-927c-5f80-ae0d-47b014f8fd85
+
+	measure 'Gap to Target YTD (EUR m)' = DIVIDE ( [Gap to Target YTD], 1000000 )
+		formatString: +#,0.00;-#,0.00
+		displayFolder: 2 Targets
+		lineageTag: 854f1122-dedf-5c1e-b8f8-9b6ca64ffe14
+
+	measure 'vs Target YTD' = DIVIDE ( [Revenue YTD], [Target YTD] ) - 1
+		formatString: +0.0%;-0.0%
+		displayFolder: 2 Targets
+		lineageTag: 4d5317f6-8ec1-53c2-8214-72cc381b13d9
+
+	measure 'Target FY' = VAR a = [As-of Month] RETURN CALCULATE ( [Target], DATESBETWEEN ( 'Date'[Date], DATE ( YEAR ( a ), 1, 1 ), DATE ( YEAR ( a ), 12, 31 ) ) )
+		formatString: #,0
+		displayFolder: 2 Targets
+		lineageTag: 1c737ea4-7479-5def-bdf2-2d4b2442f1cc
+
+	measure 'Gap Colour' = IF ( [Gap to Target YTD] < 0, "#D03B3B", "#2A78D6" )
+		displayFolder: 2 Targets
+		lineageTag: f1ec3304-576d-57e5-a246-a4bb46e7eefe
+
+	measure 'PCI Procedures' = SUM ( Country[pci_procedures] )
+		formatString: #,0
+		displayFolder: 3 Market
+		lineageTag: c417f44f-e9fa-5b70-b716-18ff8cdd5491
+
+	measure 'PCI per 100k' = AVERAGE ( Country[pci_per_100k] )
+		formatString: #,0
+		displayFolder: 3 Market
+		lineageTag: 47890dfc-45c5-52f2-b907-dd1bfc9a2bd7
+
+	measure 'PCI Growth p.a. since 2019' = AVERAGE ( Country[pci_cagr] )
+		formatString: +0.0%;-0.0%
+		displayFolder: 3 Market
+		lineageTag: 208e60d3-dac3-571a-b140-91ab9cfe7526
+
+	measure 'Market Value 2026' = CALCULATE ( SUM ( Market[market_value_eur] ), Market[year] = 2026 )
+		formatString: #,0
+		displayFolder: 3 Market
+		lineageTag: aa007bcb-e61b-5b74-a40e-9d802a49ff0e
+
+	measure 'Market Share L12M' = DIVIDE ( [Revenue L12M], [Market Value 2026] )
+		formatString: 0.0%
+		displayFolder: 3 Market
+		lineageTag: fa7bb12d-97fe-5e45-bbdf-9e8e8347138e
+
+	measure 'Untapped Potential' = SUM ( Whitespace[untapped_potential_eur] )
+		formatString: #,0
+		displayFolder: 3 Market
+		lineageTag: 4b1847f5-e657-50d1-bc6b-7d4a7e23996f
+
+	measure 'Untapped Potential (EUR m)' = DIVIDE ( [Untapped Potential], 1000000 )
+		formatString: #,0.0
+		displayFolder: 3 Market
+		lineageTag: 87573152-8fb5-50a9-9502-e1be6b371c14
+
+	measure 'Benchmark Share' = MAX ( Whitespace[benchmark_share] )
+		formatString: 0.0%
+		displayFolder: 3 Market
+		lineageTag: 50d2ff5f-34ea-5da7-b071-b8ff903ac296
+
+	measure 'Market Value (EUR m)' = DIVIDE ( SUM ( Whitespace[market_value_eur] ), 1000000 )
+		formatString: #,0
+		displayFolder: 3 Market
+		lineageTag: ea76dfe8-11f0-55b8-b866-604441eef3ed
+
+	measure 'Value Share' = DIVIDE ( SUM ( Whitespace[revenue_l12m] ), SUM ( Whitespace[market_value_eur] ) )
+		formatString: 0.0%
+		displayFolder: 3 Market
+		lineageTag: d4da6008-363e-5347-8900-a60baa7cc25c
+
+	measure 'Bridge Value' = SUM ( 'PVM Bridge'[value] )
+		formatString: #,0
+		displayFolder: 4 Price-volume-mix
+		lineageTag: da5dad4c-d725-5a53-b0ed-40dfa5134c83
+
+	measure 'Volume Effect' = SUM ( 'PVM Country'[volume_effect] )
+		formatString: #,0
+		displayFolder: 4 Price-volume-mix
+		lineageTag: 28ddf2b3-0c8c-5ce0-9071-7cd304b1224d
+
+	measure 'Mix Effect' = SUM ( 'PVM Country'[mix_effect] )
+		formatString: #,0
+		displayFolder: 4 Price-volume-mix
+		lineageTag: 06566ad4-e175-5257-87af-dc1b6c2a0d2d
+
+	measure 'Price Effect' = SUM ( 'PVM Country'[price_effect] )
+		formatString: #,0
+		displayFolder: 4 Price-volume-mix
+		lineageTag: c0c21e51-1141-54a0-9965-c674b205ba01
+
+	measure 'Revenue Change' = SUM ( 'PVM Country'[total_change] )
+		formatString: #,0
+		displayFolder: 4 Price-volume-mix
+		lineageTag: 2e71bf8d-fb95-545b-9246-3c879cef3743
+
+	measure 'Bridge Closure Check' = [Volume Effect] + [Mix Effect] + [Price Effect] - [Revenue Change]
+		formatString: #,0.00
+		displayFolder: 4 Price-volume-mix
+		lineageTag: f5f7f1f1-9580-5eb9-a693-7315e81121f2
+
+	measure 'Price Change by Line' = AVERAGE ( 'PVM Product'[price_change_pct] )
+		formatString: +0.0%;-0.0%
+		displayFolder: 4 Price-volume-mix
+		lineageTag: d8915d64-607a-59cc-b362-7af258658332
+
+	measure 'Active Accounts' = CALCULATE ( COUNTROWS ( Account ), Account[revenue_l12m] > 0, NOT ISBLANK ( Account[revenue_l12m] ) )
+		formatString: #,0
+		displayFolder: 5 Accounts
+		lineageTag: 5aeffca7-7221-5a3f-bfd1-b436229e1d29
+
+	measure 'At-risk Accounts' = CALCULATE ( COUNTROWS ( Account ), Account[risk_flag] = "At risk" )
+		formatString: #,0
+		displayFolder: 5 Accounts
+		lineageTag: b142a9f4-0125-5ef1-9e72-fc160b5dc220
+
+	measure 'At-risk Revenue L3M' = CALCULATE ( SUM ( Account[revenue_l3m] ), Account[risk_flag] = "At risk" )
+		formatString: #,0
+		displayFolder: 5 Accounts
+		lineageTag: 1d8bb5cd-ad20-5401-8158-fd69617e0ba4
+
+	measure 'At-risk Revenue L3M LY' = CALCULATE ( SUM ( Account[revenue_l3m_ly] ), Account[risk_flag] = "At risk" )
+		formatString: #,0
+		displayFolder: 5 Accounts
+		lineageTag: 9a4a05b8-54b4-5b9d-b82d-9400b6e1b725
+
+	measure 'Top 20% Accounts Revenue Share' = DIVIDE ( CALCULATE ( SUM ( Account[revenue_l12m] ), Account[size_percentile] < 0.2, NOT ISBLANK ( Account[size_percentile] ) ), SUM ( Account[revenue_l12m] ) )
+		formatString: 0%
+		displayFolder: 5 Accounts
+		lineageTag: 5b13c4ec-d676-55fd-8491-e11454f5965b
+
+	measure 'New Accounts Revenue Share' = DIVIDE ( CALCULATE ( SUM ( Account[revenue_l12m] ), Account[is_new_account] = TRUE () ), SUM ( Account[revenue_l12m] ) )
+		formatString: 0.0%
+		displayFolder: 5 Accounts
+		lineageTag: 61ba5ac8-5d50-5e40-bf1c-ee8d4782129b
+
+	measure 'Cumulative Revenue Share' = MAX ( Account[cum_revenue_share] )
+		formatString: 0%
+		displayFolder: 5 Accounts
+		lineageTag: 0b52ebbb-6f92-57b9-bcd6-6c501326d4e0
+
+	measure 'Segment Revenue Share' = SUM ( 'Account Segments'[revenue_share] )
+		formatString: 0%
+		displayFolder: 5 Accounts
+		lineageTag: 795c8f31-b166-5706-8bfd-bdf58bbcfc9b
+
+	measure 'Segment Account Share' = DIVIDE ( SUM ( 'Account Segments'[accounts] ), CALCULATE ( SUM ( 'Account Segments'[accounts] ), ALL ( 'Account Segments' ) ) )
+		formatString: 0%
+		displayFolder: 5 Accounts
+		lineageTag: 79344de3-c7f1-5d41-9ac3-0fce7c039567
+
+	measure 'At-risk Rolling 3M' = SUM ( 'At-risk Rolling'[rev_3m] )
+		formatString: #,0
+		displayFolder: 5 Accounts
+		lineageTag: 6d7c8d44-cc91-5a5f-bf07-e5a6098c6592
+
+	measure 'At-risk Rolling 3M LY' = SUM ( 'At-risk Rolling'[rev_3m_ly] )
+		formatString: #,0
+		displayFolder: 5 Accounts
+		lineageTag: 5256da38-050c-50f0-a89f-498b866f0df1
+
+	measure 'Monthly Actual' = SUM ( 'Forecast Monthly'[actual] )
+		formatString: #,0
+		displayFolder: 6 Forecast
+		lineageTag: 3625ae86-f819-59c8-a7c0-a2c5a0425793
+
+	measure 'Hold-out Prediction' = SUM ( 'Forecast Monthly'[holdout_pred] )
+		formatString: #,0
+		displayFolder: 6 Forecast
+		lineageTag: af7398fa-825d-5392-9af0-d2bc85c08fbb
+
+	measure 'Monthly Forecast' = SUM ( 'Forecast Monthly'[forecast] )
+		formatString: #,0
+		displayFolder: 6 Forecast
+		lineageTag: f3d3c6d6-861b-54e2-a68d-6639369746fd
+
+	measure 'Monthly Target' = SUM ( 'Forecast Monthly'[target] )
+		formatString: #,0
+		displayFolder: 6 Forecast
+		lineageTag: 9f6be4b0-c151-5953-84ea-3db9dc5d556d
+
+	measure 'FY Forecast' = SUM ( 'Forecast Country'[forecast_fy] )
+		formatString: #,0
+		displayFolder: 6 Forecast
+		lineageTag: 590531f9-1231-5017-89f0-2de599219c88
+
+	measure 'FY Forecast (EUR m)' = DIVIDE ( [FY Forecast], 1000000 )
+		formatString: #,0.0
+		displayFolder: 6 Forecast
+		lineageTag: d7099e1c-0bd9-54f7-aea5-4d566f3092b3
+
+	measure 'FY Target (EUR m)' = DIVIDE ( SUM ( 'Forecast Country'[target_fy] ), 1000000 )
+		formatString: #,0.0
+		displayFolder: 6 Forecast
+		lineageTag: 334ace31-98f1-5fb4-9f4b-9c494937c4dc
+
+	measure 'FY Gap (EUR m)' = [FY Forecast (EUR m)] - [FY Target (EUR m)]
+		formatString: +#,0.0;-#,0.0
+		displayFolder: 6 Forecast
+		lineageTag: 7354e356-e349-59cb-8906-14d1a32d3892
+
+	measure 'FY vs Target' = DIVIDE ( [FY Forecast (EUR m)], [FY Target (EUR m)] ) - 1
+		formatString: +0.0%;-0.0%
+		displayFolder: 6 Forecast
+		lineageTag: 12a0fc3c-aa33-5704-9fab-06a66b54fb52
+
+	measure 'Scenario Revenue (EUR m)' = DIVIDE ( SUM ( 'Forecast Scenarios'[revenue_fy] ), 1000000 )
+		formatString: #,0.0
+		displayFolder: 6 Forecast
+		lineageTag: c7e3a277-83d2-5f51-8b08-96d6b32c31bf
+
+	measure 'Hold-out MAPE' = CALCULATE ( MIN ( 'Forecast Models'[mape_total] ), 'Forecast Models'[model] = "Seasonal x trailing growth" )
+		formatString: 0.0%
+		displayFolder: 6 Forecast
+		lineageTag: 864acc1c-325c-5d00-946d-6dfa8c28c07d
+
+	measure 'SQL Questions' = COUNTROWS ( 'AI SQL Eval' )
+		formatString: 0
+		displayFolder: 7 AI evaluation
+		lineageTag: a6addfa5-9a7a-5da6-ad73-cd01dd7bb060
+
+	measure 'SQL Correct' = CALCULATE ( COUNTROWS ( 'AI SQL Eval' ), 'AI SQL Eval'[correct] = TRUE () )
+		formatString: 0
+		displayFolder: 7 AI evaluation
+		lineageTag: cf198cca-0672-51b3-8125-d216d51ad720
+
+	measure 'SQL Accuracy' = DIVIDE ( [SQL Correct], [SQL Questions] )
+		formatString: 0%
+		displayFolder: 7 AI evaluation
+		lineageTag: a7c27d69-ef52-5e5e-8e5a-af21b1ab12ab
+
+	measure 'SQL Wrong' = [SQL Questions] - [SQL Correct]
+		formatString: 0
+		displayFolder: 7 AI evaluation
+		lineageTag: 808b4229-a79f-5d87-89d4-619b067a8057
+
+	measure 'MBR Numbers Cited' = SUM ( 'AI MBR Eval'[numbers_cited] )
+		formatString: #,0
+		displayFolder: 7 AI evaluation
+		lineageTag: b734d3af-d139-50c8-ba64-865dd5b91f5a
+
+	measure 'MBR Unsupported (first draft)' = SUM ( 'AI MBR Eval'[unsupported_first_draft] )
+		formatString: 0
+		displayFolder: 7 AI evaluation
+		lineageTag: 4a51dff9-0dbe-5d0d-af87-01606ce208aa
+
+	measure 'MBR Unsupported (published)' = SUM ( 'AI MBR Eval'[unsupported_final] )
+		formatString: 0
+		displayFolder: 7 AI evaluation
+		lineageTag: bf554239-5cca-59c2-94cf-a3af5f027b8c
+
+	measure 'Guard Tests Passed' = CALCULATE ( COUNTROWS ( 'AI Guards' ), 'AI Guards'[passed] = TRUE () )
+		formatString: 0
+		displayFolder: 7 AI evaluation
+		lineageTag: 9b9c912c-3a6c-5984-a46b-5cfb5c4f0ca8
+
+	measure 'Hours Saved per Month' = SUM ( 'AI Time Saving'[hours_saved] )
+		formatString: 0
+		displayFolder: 7 AI evaluation
+		lineageTag: eb2f67e4-cc56-5635-ac30-f6c28dca3ae0
+
+	column _
+		dataType: string
+		isHidden
+		lineageTag: bc4e3ed3-7ba2-53e5-afc8-0dcea0be0504
+		summarizeBy: none
+		sourceColumn: _
+
+	partition _Measures = m
+		mode: import
+		source = #table(type table [_ = text], {})
+

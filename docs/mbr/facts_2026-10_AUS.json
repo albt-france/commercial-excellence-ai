@@ -1,0 +1,95 @@
+{
+  "period": {
+    "month": "October 2026",
+    "year_to_date": "January-October 2026",
+    "same_period_last_year": "January-October 2025"
+  },
+  "scope": "Australia",
+  "data_label": "SIMULATED sales data (case study)",
+  "month": {
+    "revenue": "EUR 415 k",
+    "target": "EUR 450 k",
+    "vs_target": "-7.7%",
+    "revenue_same_month_last_year": "EUR 421 k",
+    "vs_last_year": "-1.6%"
+  },
+  "year_to_date": {
+    "revenue": "EUR 4.01 m",
+    "target": "EUR 4.33 m",
+    "gap_to_target": "EUR -321 k",
+    "vs_target": "-7.4%",
+    "revenue_last_year": "EUR 4.06 m",
+    "vs_last_year": "-1.2%",
+    "full_year_target": "EUR 5.15 m"
+  },
+  "product_lines": [
+    {
+      "product_line": "Coronary stents",
+      "revenue_ytd": "EUR 1.13 m",
+      "gap_to_target": "EUR -104 k",
+      "vs_target": "-8.5%",
+      "vs_last_year": "-2.6%"
+    },
+    {
+      "product_line": "PTCA balloons",
+      "revenue_ytd": "EUR 975 k",
+      "gap_to_target": "EUR -103 k",
+      "vs_target": "-9.5%",
+      "vs_last_year": "-4.4%"
+    },
+    {
+      "product_line": "Guidewires",
+      "revenue_ytd": "EUR 429 k",
+      "gap_to_target": "EUR -47 k",
+      "vs_target": "-9.9%",
+      "vs_last_year": "-3.8%"
+    },
+    {
+      "product_line": "Peripheral devices",
+      "revenue_ytd": "EUR 572 k",
+      "gap_to_target": "EUR -35 k",
+      "vs_target": "-5.7%",
+      "vs_last_year": "-0.9%"
+    },
+    {
+      "product_line": "Diagnostic catheters",
+      "revenue_ytd": "EUR 410 k",
+      "gap_to_target": "EUR -20 k",
+      "vs_target": "-4.6%",
+      "vs_last_year": "+1.5%"
+    },
+    {
+      "product_line": "Drug-coated balloons",
+      "revenue_ytd": "EUR 498 k",
+      "gap_to_target": "EUR -12 k",
+      "vs_target": "-2.4%",
+      "vs_last_year": "+9.1%"
+    }
+  ],
+  "price_volume_mix_ytd": {
+    "revenue_last_year": "EUR 4.06 m",
+    "volume_effect": "EUR 38 k",
+    "mix_effect": "EUR 39 k",
+    "price_effect": "EUR -127 k",
+    "revenue_this_year": "EUR 4.01 m",
+    "largest_price_erosion": {
+      "product_line": "Coronary stents",
+      "price_effect": "EUR -53 k",
+      "price_change": "-4.5%"
+    }
+  },
+  "at_risk_accounts": {
+    "rule": "last 3 months at least 30% below the same 3 months last year, accounts with at least EUR 30 k last year",
+    "count": 1,
+    "largest": [
+      {
+        "account_id": "AU-007",
+        "country": "Australia",
+        "type": "Private hospital",
+        "revenue_last_3_months": "EUR 147 k",
+        "same_3_months_last_year": "EUR 240 k",
+        "change": "-39.0%"
+      }
+    ]
+  }
+}

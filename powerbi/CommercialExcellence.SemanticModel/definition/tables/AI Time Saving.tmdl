@@ -1,0 +1,56 @@
+table 'AI Time Saving'
+	lineageTag: e97b6702-be51-5978-8913-03aceded4c2a
+
+	column order
+		dataType: int64
+		isHidden
+		formatString: #,0
+		lineageTag: a787f2ac-6992-5107-bbc9-52f490cdadd1
+		summarizeBy: none
+		sourceColumn: order
+
+	column task
+		dataType: string
+		lineageTag: 1d8228ef-72c0-5fc5-b92e-3a30e0869f7b
+		summarizeBy: none
+		sourceColumn: task
+		sortByColumn: order
+
+	column manual_hours
+		dataType: double
+		formatString: 0.0
+		lineageTag: 9688b1b8-4357-526f-bc9b-ee71d2dfef2a
+		summarizeBy: none
+		sourceColumn: manual_hours
+
+	column automated_hours
+		dataType: double
+		formatString: 0.0
+		lineageTag: 9f6eca11-bfc8-5720-9e4c-57313dc227bb
+		summarizeBy: none
+		sourceColumn: automated_hours
+
+	column hours_saved
+		dataType: double
+		formatString: 0.0
+		lineageTag: 84147587-f00e-56d3-8fb4-7876190f57d1
+		summarizeBy: none
+		sourceColumn: hours_saved
+
+	column assumption
+		dataType: string
+		lineageTag: 7d63183e-22cb-5043-9e58-dd813fd5e820
+		summarizeBy: none
+		sourceColumn: assumption
+
+	partition 'AI Time Saving' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\ai_time_saving.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"order", "task", "manual_hours", "automated_hours", "hours_saved", "assumption"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"order", Int64.Type}, {"task", type text}, {"manual_hours", type number}, {"automated_hours", type number}, {"hours_saved", type number}, {"assumption", type text}}, "en-US")
+				in
+					Typed
+

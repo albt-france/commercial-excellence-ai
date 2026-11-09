@@ -1,0 +1,23 @@
+# Secrets: the Anthropic API key lives only in .env (see .env.example)
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Rebuilt by src/run_sql.py
+*.duckdb
+*.duckdb.wal
+
+# Power BI local files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+**/.pbi/editorSettings.json
+**/TMDLScripts/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,56 @@
+relationship rel_01
+	fromColumn: Sales.month
+	toColumn: Date.Date
+
+relationship rel_02
+	fromColumn: Sales.iso3
+	toColumn: Country.iso3
+
+relationship rel_03
+	fromColumn: Sales.product_id
+	toColumn: Product.product_id
+
+relationship rel_04
+	fromColumn: Sales.account_id
+	toColumn: Account.account_id
+
+relationship rel_05
+	fromColumn: Targets.month
+	toColumn: Date.Date
+
+relationship rel_06
+	fromColumn: Targets.iso3
+	toColumn: Country.iso3
+
+relationship rel_07
+	fromColumn: Targets.product_id
+	toColumn: Product.product_id
+
+relationship rel_08
+	fromColumn: Market.iso3
+	toColumn: Country.iso3
+
+relationship rel_09
+	fromColumn: Market.product_id
+	toColumn: Product.product_id
+
+relationship rel_10
+	fromColumn: Whitespace.iso3
+	toColumn: Country.iso3
+
+relationship rel_11
+	fromColumn: 'PCI Trend'.iso3
+	toColumn: Country.iso3
+
+relationship rel_12
+	fromColumn: 'PVM Country'.iso3
+	toColumn: Country.iso3
+
+relationship rel_13
+	fromColumn: 'Forecast Country'.iso3
+	toColumn: Country.iso3
+
+relationship rel_14
+	fromColumn: 'At-risk Rolling'.account_id
+	toColumn: Account.account_id
+

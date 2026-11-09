@@ -1,0 +1,75 @@
+table 'PVM Country'
+	lineageTag: d6553e51-3e0b-5fca-88bc-fb18fb8ef452
+
+	column iso3
+		dataType: string
+		lineageTag: 94defcc2-e7ae-53bc-a059-f00577aa19b6
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column country
+		dataType: string
+		lineageTag: 384caec5-4b68-5b44-a611-46b9c4fc27d6
+		summarizeBy: none
+		sourceColumn: country
+
+	column revenue_ly
+		dataType: double
+		formatString: #,0
+		lineageTag: 03f9a358-f2c7-5a68-a69e-a8768622ad8a
+		summarizeBy: none
+		sourceColumn: revenue_ly
+
+	column revenue_cy
+		dataType: double
+		formatString: #,0
+		lineageTag: 9a560d9c-7259-5e1a-b598-c9ee53c6070c
+		summarizeBy: none
+		sourceColumn: revenue_cy
+
+	column volume_effect
+		dataType: double
+		formatString: #,0
+		lineageTag: c127e56e-5a96-56a8-8854-b176b0b4d89c
+		summarizeBy: none
+		sourceColumn: volume_effect
+
+	column mix_effect
+		dataType: double
+		formatString: #,0
+		lineageTag: 65f33ce5-4e94-5d65-a6f6-67ca1685dcce
+		summarizeBy: none
+		sourceColumn: mix_effect
+
+	column price_effect
+		dataType: double
+		formatString: #,0
+		lineageTag: fb55fd28-6720-5efe-9a54-ff926bf7e769
+		summarizeBy: none
+		sourceColumn: price_effect
+
+	column total_change
+		dataType: double
+		formatString: #,0
+		lineageTag: 49f84dbc-e31f-5a67-ac64-02f3921b1841
+		summarizeBy: none
+		sourceColumn: total_change
+
+	column closure_check
+		dataType: double
+		formatString: 0.00
+		lineageTag: b42d2e10-f5f5-545e-b575-864b26adbcdf
+		summarizeBy: none
+		sourceColumn: closure_check
+
+	partition 'PVM Country' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\03_pvm_country.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"iso3", "country", "revenue_ly", "revenue_cy", "volume_effect", "mix_effect", "price_effect", "total_change", "closure_check"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"iso3", type text}, {"country", type text}, {"revenue_ly", type number}, {"revenue_cy", type number}, {"volume_effect", type number}, {"mix_effect", type number}, {"price_effect", type number}, {"total_change", type number}, {"closure_check", type number}}, "en-US")
+				in
+					Typed
+

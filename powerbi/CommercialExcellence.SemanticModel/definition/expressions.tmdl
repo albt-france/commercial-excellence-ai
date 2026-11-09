@@ -1,0 +1,5 @@
+expression DataFolder = "C:\case-study-cordis\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 32e26002-d671-503c-add3-eedb9535250d
+
+	annotation PBI_ResultType = Text
+

@@ -1,0 +1,41 @@
+table 'Forecast Models'
+	lineageTag: 60c16184-0d3b-5725-99ec-b5ec77058131
+
+	column model
+		dataType: string
+		lineageTag: 1fa906cf-6064-59e7-b43d-1798e4de6f66
+		summarizeBy: none
+		sourceColumn: model
+
+	column mape_total
+		dataType: double
+		formatString: 0.0%
+		lineageTag: d749b42e-f115-5de7-96fe-64b4f84cf91b
+		summarizeBy: none
+		sourceColumn: mape_total
+
+	column mape_country_median
+		dataType: double
+		formatString: 0.0%
+		lineageTag: af40c221-c75e-56d1-bd04-59f2214dbe6b
+		summarizeBy: none
+		sourceColumn: mape_country_median
+
+	column error_6m_total
+		dataType: double
+		formatString: 0.0%
+		lineageTag: a9916582-c69b-5fe1-8145-21533dd894ce
+		summarizeBy: none
+		sourceColumn: error_6m_total
+
+	partition 'Forecast Models' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\05_forecast_models.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"model", "mape_total", "mape_country_median", "error_6m_total"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"model", type text}, {"mape_total", type number}, {"mape_country_median", type number}, {"error_6m_total", type number}}, "en-US")
+				in
+					Typed
+

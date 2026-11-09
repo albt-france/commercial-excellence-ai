@@ -1,0 +1,48 @@
+table 'Account Segments'
+	lineageTag: b85064d7-0b3e-515f-8dd7-b63577d6fce8
+
+	column segment
+		dataType: string
+		lineageTag: 24ed621a-6f60-5ef3-a6b7-bba9a87cea0a
+		summarizeBy: none
+		sourceColumn: segment
+
+	column accounts
+		dataType: int64
+		formatString: #,0
+		lineageTag: a02b4012-77d3-50f6-91b5-9db81f33cb79
+		summarizeBy: none
+		sourceColumn: accounts
+
+	column revenue_l12m
+		dataType: double
+		formatString: #,0
+		lineageTag: b24f7c82-73c8-5f34-9067-38d34b7639cd
+		summarizeBy: none
+		sourceColumn: revenue_l12m
+
+	column revenue_share
+		dataType: double
+		formatString: 0%
+		lineageTag: 34517250-2bac-5601-bb21-6a34ece04663
+		summarizeBy: none
+		sourceColumn: revenue_share
+
+	column growth
+		dataType: double
+		formatString: 0%
+		lineageTag: 4d22a77e-3d77-5806-a26a-59f11f356f4b
+		summarizeBy: none
+		sourceColumn: growth
+
+	partition 'Account Segments' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\04_segments.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"segment", "accounts", "revenue_l12m", "revenue_share", "growth"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"segment", type text}, {"accounts", Int64.Type}, {"revenue_l12m", type number}, {"revenue_share", type number}, {"growth", type number}}, "en-US")
+				in
+					Typed
+

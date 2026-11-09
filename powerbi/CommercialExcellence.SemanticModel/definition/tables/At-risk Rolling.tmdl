@@ -1,0 +1,44 @@
+/// Rolling 3-month revenue of the flagged accounts vs the same 3 months a year earlier
+table 'At-risk Rolling'
+	lineageTag: adb77e35-307f-50fe-8d31-a256aec561f3
+
+	column account_id
+		dataType: string
+		lineageTag: 0455c08a-53ef-56ef-813f-c157f7a5308e
+		summarizeBy: none
+		sourceColumn: account_id
+
+	column month
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: 2acd162c-7e72-52be-ad86-2b1b77706f46
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column rev_3m
+		dataType: double
+		formatString: #,0
+		lineageTag: 7c5bd793-5788-5d46-8c89-bf09bb2fff5a
+		summarizeBy: none
+		sourceColumn: rev_3m
+
+	column rev_3m_ly
+		dataType: double
+		formatString: #,0
+		lineageTag: 78b82742-cb96-5c1f-a8ef-0d721b104ec9
+		summarizeBy: none
+		sourceColumn: rev_3m_ly
+
+	partition 'At-risk Rolling' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\04_account_rolling_at_risk.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"account_id", "month", "rev_3m", "rev_3m_ly"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"account_id", type text}, {"month", type date}, {"rev_3m", type number}, {"rev_3m_ly", type number}}, "en-US")
+				in
+					Typed
+

@@ -1,0 +1,2 @@
+id,analysis
+30,"Out of scope, failed in 3 of 3 runs. Japan is not in the data, but the prompt does not list the 19 countries, so Claude wrote a correct-looking query that returns NULL instead of saying 'cannot answer'. A NULL shown as 'no revenue' would mislead a reader. Fix: list the covered countries in the prompt and treat an empty result as 'not covered' in code. Not applied, so the score is not tuned on the test set."

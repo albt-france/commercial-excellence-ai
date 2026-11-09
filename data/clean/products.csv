@@ -1,0 +1,7 @@
+product_id,product_line,family,units_per_pci,ref_price_eur,price_erosion
+DXC,Diagnostic catheters,Coronary,2.5,28,-0.01
+GWR,Guidewires,Coronary,1.6,65,-0.01
+PTB,PTCA balloons,Coronary,1.8,160,-0.03
+DES,Coronary stents,Coronary,1.5,380,-0.05
+DCB,Drug-coated balloons,Coronary,0.2,750,-0.04
+PER,Peripheral devices,Endovascular,0.35,420,-0.02

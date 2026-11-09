@@ -1,0 +1,5 @@
+order,task,manual_hours,automated_hours,assumption,hours_saved
+1,Monthly business reviews (overall + 19 countries),31.5,5.5,"Manual: 1.5 h per country pack (extract, reconcile, bridge, comment) + 3 h for the overall review. Automated: one command, then 15 min human review per country and 45 min for the overall review.",26.0
+2,Ad-hoc sales questions,20.0,4.0,40 questions a month at 30 min each by hand. Automated: 5 min to check the SQL shown with each answer; the 3% the AI gets wrong in the test set are redone by hand.,16.0
+3,Account risk watch list,4.0,0.5,"Manual: 4 h a month to rebuild 3-month trends per hospital in Excel. Automated: SQL alert, 30 min to review the list.",3.5
+4,Total per month,55.5,10.0,Excludes the one-off build (about 2 weeks) and the API cost (a few euros a month at this volume).,45.5

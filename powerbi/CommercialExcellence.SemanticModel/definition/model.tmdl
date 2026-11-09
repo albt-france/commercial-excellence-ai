@@ -1,0 +1,36 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Sales","Targets","Market","Date","Country","Product","Account","Whitespace","PCI Trend","PVM Bridge","PVM Country","PVM Product","Account Segments","At-risk Rolling","Forecast Monthly","Forecast Country","Forecast Scenarios","Forecast Models","AI SQL Eval","AI MBR Eval","AI Guards","AI Time Saving","_Measures","DataFolder"]
+
+ref table Sales
+ref table Targets
+ref table Market
+ref table Date
+ref table Country
+ref table Product
+ref table Account
+ref table Whitespace
+ref table 'PCI Trend'
+ref table 'PVM Bridge'
+ref table 'PVM Country'
+ref table 'PVM Product'
+ref table 'Account Segments'
+ref table 'At-risk Rolling'
+ref table 'Forecast Monthly'
+ref table 'Forecast Country'
+ref table 'Forecast Scenarios'
+ref table 'Forecast Models'
+ref table 'AI SQL Eval'
+ref table 'AI MBR Eval'
+ref table 'AI Guards'
+ref table 'AI Time Saving'
+ref table _Measures
+

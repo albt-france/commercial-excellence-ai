@@ -1,0 +1,3660 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 2000,
+  "total": 228,
+  "sourceid": "2",
+  "lastupdated": "2026-10-08"
+ },
+ [
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2024",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2023",
+   "value": 6980.38525391,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2022",
+   "value": 6723.98242188,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2021",
+   "value": 7092.13476563,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2020",
+   "value": 5968.00341797,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2019",
+   "value": 5543.37841797,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2018",
+   "value": 5843.64794922,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2017",
+   "value": 5770.69042969,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2016",
+   "value": 5418.43652344,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2015",
+   "value": 5271.93310547,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AU",
+    "value": "Australia"
+   },
+   "countryiso3code": "AUS",
+   "date": "2014",
+   "value": 6098.25439453,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2024",
+   "value": 6739.30908203,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2023",
+   "value": 6267.93164063,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2022",
+   "value": 5897.97607422,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2021",
+   "value": 6554.14257813,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2020",
+   "value": 5569.84130859,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2019",
+   "value": 5313.19287109,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2018",
+   "value": 5394.55908203,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2017",
+   "value": 4999.86962891,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2016",
+   "value": 4758.89892578,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2015",
+   "value": 4649.59667969,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "AT",
+    "value": "Austria"
+   },
+   "countryiso3code": "AUT",
+   "date": "2014",
+   "value": 5418.47558594,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2024",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2023",
+   "value": 5931.01464844,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2022",
+   "value": 5487.59277344,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2021",
+   "value": 5847.17333984,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2020",
+   "value": 5269.40625,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2019",
+   "value": 5087.45654297,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2018",
+   "value": 5233.68261719,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2017",
+   "value": 4827.59326172,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2016",
+   "value": 4569.640625,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2015",
+   "value": 4465.45556641,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "BE",
+    "value": "Belgium"
+   },
+   "countryiso3code": "BEL",
+   "date": "2014",
+   "value": 5110.17333984,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2024",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2023",
+   "value": 11783.66992188,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2022",
+   "value": 10930.13964844,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2021",
+   "value": 11197.76464844,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2020",
+   "value": 10294.578125,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2019",
+   "value": 9609.80273438,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2018",
+   "value": 9541.07421875,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2017",
+   "value": 9354.22070313,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2016",
+   "value": 9201.47460938,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2015",
+   "value": 9200.10058594,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CH",
+    "value": "Switzerland"
+   },
+   "countryiso3code": "CHE",
+   "date": "2014",
+   "value": 9469.6640625,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2024",
+   "value": 2692.76416016,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2023",
+   "value": 2671.08398438,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2022",
+   "value": 2431.08496094,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2021",
+   "value": 2538.03344727,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2020",
+   "value": 2106.28027344,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2019",
+   "value": 1805.44030762,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2018",
+   "value": 1750.81188965,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2017",
+   "value": 1516.75012207,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2016",
+   "value": 1374.9005127,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2015",
+   "value": 1308.8013916,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "CZ",
+    "value": "Czechia"
+   },
+   "countryiso3code": "CZE",
+   "date": "2014",
+   "value": 1512.59326172,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2024",
+   "value": 6849.26367188,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2023",
+   "value": 6394.62255859,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2022",
+   "value": 6226.14208984,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2021",
+   "value": 6653.58349609,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2020",
+   "value": 5906.80615234,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2019",
+   "value": 5447.31787109,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2018",
+   "value": 5473.55712891,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2017",
+   "value": 5039.35302734,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2016",
+   "value": 4723.32421875,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2015",
+   "value": 4605.59033203,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "DE",
+    "value": "Germany"
+   },
+   "countryiso3code": "DEU",
+   "date": "2014",
+   "value": 5287.34423828,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2024",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2023",
+   "value": 3106.62011719,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2022",
+   "value": 2948.61474609,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2021",
+   "value": 3188.8515625,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2020",
+   "value": 2942.41943359,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2019",
+   "value": 2756.62109375,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2018",
+   "value": 2784.16308594,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2017",
+   "value": 2564.55834961,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2016",
+   "value": 2378.13598633,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2015",
+   "value": 2383.85302734,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "ES",
+    "value": "Spain"
+   },
+   "countryiso3code": "ESP",
+   "date": "2014",
+   "value": 2716.5793457,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2024",
+   "value": 5327.43359375,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2023",
+   "value": 5149.0546875,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2022",
+   "value": 4857.73388672,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2021",
+   "value": 5364.89746094,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2020",
+   "value": 4760.08251953,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2019",
+   "value": 4519.98583984,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2018",
+   "value": 4692.99511719,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2017",
+   "value": 4436.63720703,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2016",
+   "value": 4289.34716797,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2015",
+   "value": 4226.62646484,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "FR",
+    "value": "France"
+   },
+   "countryiso3code": "FRA",
+   "date": "2014",
+   "value": 5007.29736328,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2024",
+   "value": 5860.23925781,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2023",
+   "value": 5407.17041016,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2022",
+   "value": 5111.81738281,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2021",
+   "value": 5645.40136719,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2020",
+   "value": 4865.97802734,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2019",
+   "value": 4260.03222656,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2018",
+   "value": 4233.62988281,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2017",
+   "value": 3938.65234375,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2016",
+   "value": 4043.35253906,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2015",
+   "value": 4470.09228516,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "GB",
+    "value": "United Kingdom"
+   },
+   "countryiso3code": "GBR",
+   "date": "2014",
+   "value": 4733.37060547,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2024",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2023",
+   "value": 3927.69873047,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2022",
+   "value": 4107.72998047,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2021",
+   "value": 4294.18847656,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2020",
+   "value": 3616.50219727,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2019",
+   "value": 3335.24511719,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2018",
+   "value": 3199.41625977,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2017",
+   "value": 3074.44604492,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2016",
+   "value": 2783.82495117,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2015",
+   "value": 2645.78857422,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IL",
+    "value": "Israel"
+   },
+   "countryiso3code": "ISR",
+   "date": "2014",
+   "value": 2804.23144531,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2024",
+   "value": 3397.68798828,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2023",
+   "value": 3283.47216797,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2022",
+   "value": 3154.57104492,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2021",
+   "value": 3414.57299805,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2020",
+   "value": 3058.90014648,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2019",
+   "value": 2908.83154297,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2018",
+   "value": 3031.46459961,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2017",
+   "value": 2851.28686523,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2016",
+   "value": 2735.27783203,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2015",
+   "value": 2707.43310547,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "IT",
+    "value": "Italy"
+   },
+   "countryiso3code": "ITA",
+   "date": "2014",
+   "value": 3190.46777344,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2024",
+   "value": 3136.78564453,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2023",
+   "value": 3043.87329102,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2022",
+   "value": 3078.55151367,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2021",
+   "value": 3125.82714844,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2020",
+   "value": 2699.6640625,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2019",
+   "value": 2602.4831543,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2018",
+   "value": 2523.04003906,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2017",
+   "value": 2258.15307617,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2016",
+   "value": 2042.72949219,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2015",
+   "value": 1950.89575195,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "KR",
+    "value": "Korea, Rep."
+   },
+   "countryiso3code": "KOR",
+   "date": "2014",
+   "value": 1922.98803711,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2024",
+   "value": 6845.14208984,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2023",
+   "value": 6371.85595703,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2022",
+   "value": 5967.90429688,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2021",
+   "value": 6718.88964844,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2020",
+   "value": 5865.90527344,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2019",
+   "value": 5340.61279297,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2018",
+   "value": 5330.66015625,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2017",
+   "value": 4934.57519531,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2016",
+   "value": 4644.02099609,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2015",
+   "value": 4676.56201172,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NL",
+    "value": "Netherlands"
+   },
+   "countryiso3code": "NLD",
+   "date": "2014",
+   "value": 5601.88574219,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2024",
+   "value": 5022.03271484,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2023",
+   "value": 4997.24316406,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2022",
+   "value": 5138.33789063,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2021",
+   "value": 4749.04199219,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2020",
+   "value": 3887.71264648,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2019",
+   "value": 3679.59692383,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2018",
+   "value": 3706.80273438,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2017",
+   "value": 3702.09985352,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2016",
+   "value": 3516.93481445,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2015",
+   "value": 3433.59643555,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "NZ",
+    "value": "New Zealand"
+   },
+   "countryiso3code": "NZL",
+   "date": "2014",
+   "value": 3997.43237305,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2024",
+   "value": 2014.12780762,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2023",
+   "value": 1577.98168945,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2022",
+   "value": 1219.29125977,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2021",
+   "value": 1183.30236816,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2020",
+   "value": 1025.98486328,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2019",
+   "value": 1014.03820801,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2018",
+   "value": 978.73565674,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2017",
+   "value": 909.57818604,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2016",
+   "value": 816.08618164,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2015",
+   "value": 803.95965576,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PL",
+    "value": "Poland"
+   },
+   "countryiso3code": "POL",
+   "date": "2014",
+   "value": 911.29815674,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2024",
+   "value": 2971.03930664,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2023",
+   "value": 2762.26293945,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2022",
+   "value": 2600.56665039,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2021",
+   "value": 2764.04296875,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2020",
+   "value": 2328.35571289,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2019",
+   "value": 2209.50219727,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2018",
+   "value": 2206.71240234,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2017",
+   "value": 1991.32263184,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2016",
+   "value": 1870.31848145,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2015",
+   "value": 1787.03759766,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "PT",
+    "value": "Portugal"
+   },
+   "countryiso3code": "PRT",
+   "date": "2014",
+   "value": 2056.61474609,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2024",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2023",
+   "value": 1050.99755859,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2022",
+   "value": 902.2677002,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2021",
+   "value": 963.01287842,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2020",
+   "value": 809.58880615,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2019",
+   "value": 738.5581665,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2018",
+   "value": 687.15411377,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2017",
+   "value": 555.11309814,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2016",
+   "value": 476.24505615,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2015",
+   "value": 442.24038696,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "RO",
+    "value": "Romania"
+   },
+   "countryiso3code": "ROU",
+   "date": "2014",
+   "value": 503.34753418,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2024",
+   "value": 6484.76464844,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2023",
+   "value": 6206.23046875,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2022",
+   "value": 6022.39257813,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2021",
+   "value": 6894.20166016,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2020",
+   "value": 6030.53271484,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2019",
+   "value": 5688.04492188,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2018",
+   "value": 6042.13525391,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2017",
+   "value": 5871.52294922,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2016",
+   "value": 5719.45996094,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2015",
+   "value": 5626.04833984,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2014",
+   "value": 6632.23681641,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2024",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2023",
+   "value": 547.8145752,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2022",
+   "value": 385.87997437,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2021",
+   "value": 431.33978271,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2020",
+   "value": 386.2593689,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2019",
+   "value": 388.67486572,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2018",
+   "value": 380.27835083,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2017",
+   "value": 432.13754272,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2016",
+   "value": 456.3659668,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2015",
+   "value": 444.70803833,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SH.XPD.CHEX.PC.CD",
+    "value": "Current health expenditure per capita (current US$)"
+   },
+   "country": {
+    "id": "TR",
+    "value": "Turkiye"
+   },
+   "countryiso3code": "TUR",
+   "date": "2014",
+   "value": 520.40753174,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  }
+ ]
+]

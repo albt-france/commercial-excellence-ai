@@ -1,0 +1,86 @@
+{
+  "period": {
+    "month": "October 2026",
+    "year_to_date": "January-October 2026",
+    "same_period_last_year": "January-October 2025"
+  },
+  "scope": "Poland",
+  "data_label": "SIMULATED sales data (case study)",
+  "month": {
+    "revenue": "EUR 328 k",
+    "target": "EUR 279 k",
+    "vs_target": "+17.5%",
+    "revenue_same_month_last_year": "EUR 239 k",
+    "vs_last_year": "+37.3%"
+  },
+  "year_to_date": {
+    "revenue": "EUR 2.83 m",
+    "target": "EUR 2.49 m",
+    "gap_to_target": "EUR 340 k",
+    "vs_target": "+13.6%",
+    "revenue_last_year": "EUR 2.13 m",
+    "vs_last_year": "+32.8%",
+    "full_year_target": "EUR 3.01 m"
+  },
+  "product_lines": [
+    {
+      "product_line": "Guidewires",
+      "revenue_ytd": "EUR 306 k",
+      "gap_to_target": "EUR 18 k",
+      "vs_target": "+6.3%",
+      "vs_last_year": "+26.6%"
+    },
+    {
+      "product_line": "Diagnostic catheters",
+      "revenue_ytd": "EUR 273 k",
+      "gap_to_target": "EUR 28 k",
+      "vs_target": "+11.3%",
+      "vs_last_year": "+29.4%"
+    },
+    {
+      "product_line": "Peripheral devices",
+      "revenue_ytd": "EUR 364 k",
+      "gap_to_target": "EUR 40 k",
+      "vs_target": "+12.4%",
+      "vs_last_year": "+30.8%"
+    },
+    {
+      "product_line": "Drug-coated balloons",
+      "revenue_ytd": "EUR 354 k",
+      "gap_to_target": "EUR 72 k",
+      "vs_target": "+25.7%",
+      "vs_last_year": "+52.3%"
+    },
+    {
+      "product_line": "Coronary stents",
+      "revenue_ytd": "EUR 828 k",
+      "gap_to_target": "EUR 79 k",
+      "vs_target": "+10.6%",
+      "vs_last_year": "+28.4%"
+    },
+    {
+      "product_line": "PTCA balloons",
+      "revenue_ytd": "EUR 707 k",
+      "gap_to_target": "EUR 102 k",
+      "vs_target": "+16.8%",
+      "vs_last_year": "+34.7%"
+    }
+  ],
+  "price_volume_mix_ytd": {
+    "revenue_last_year": "EUR 2.13 m",
+    "volume_effect": "EUR 692 k",
+    "mix_effect": "EUR 99 k",
+    "price_effect": "EUR -92 k",
+    "revenue_this_year": "EUR 2.83 m",
+    "largest_price_erosion": {
+      "product_line": "Coronary stents",
+      "price_effect": "EUR -43 k",
+      "price_change": "-5.0%"
+    }
+  },
+  "at_risk_accounts": {
+    "rule": "last 3 months at least 30% below the same 3 months last year, accounts with at least EUR 30 k last year",
+    "count": 0,
+    "largest": []
+  }
+}

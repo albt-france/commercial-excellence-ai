@@ -1,0 +1,68 @@
+/// ESTIMATE: real OECD procedure count x assumed devices per procedure x assumed price
+table Market
+	lineageTag: 0219b9f4-9048-50c3-bda0-d9e08bc40f03
+
+	column iso3
+		dataType: string
+		lineageTag: 1de27a41-632c-5be3-a162-b0d51d98e96d
+		summarizeBy: none
+		sourceColumn: iso3
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: d11db0cb-a904-5789-86eb-f6fbce6fb6d3
+		summarizeBy: none
+		sourceColumn: year
+
+	column product_id
+		dataType: string
+		lineageTag: 7b451f46-d349-5071-b98e-ebf9580133d8
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column pci_procedures
+		dataType: int64
+		formatString: #,0
+		lineageTag: 28cbb961-469b-5096-b918-98eb120b361a
+		summarizeBy: none
+		sourceColumn: pci_procedures
+
+	column pci_source
+		dataType: string
+		lineageTag: 49643563-c386-57a9-b0a4-e49038bf479f
+		summarizeBy: none
+		sourceColumn: pci_source
+
+	column market_units
+		dataType: int64
+		formatString: #,0
+		lineageTag: 65f53145-9bc3-52f7-b4f8-061db9eb986f
+		summarizeBy: none
+		sourceColumn: market_units
+
+	column market_price_eur
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 79df3e9e-f3ef-5571-8a81-986fde4c668a
+		summarizeBy: none
+		sourceColumn: market_price_eur
+
+	column market_value_eur
+		dataType: double
+		formatString: #,0
+		lineageTag: 639d1cab-bc46-51cd-97c8-378cb1d281ed
+		summarizeBy: none
+		sourceColumn: market_value_eur
+
+	partition Market = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "clean\market_size.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"iso3", "year", "product_id", "pci_procedures", "pci_source", "market_units", "market_price_eur", "market_value_eur"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"iso3", type text}, {"year", Int64.Type}, {"product_id", type text}, {"pci_procedures", Int64.Type}, {"pci_source", type text}, {"market_units", Int64.Type}, {"market_price_eur", type number}, {"market_value_eur", type number}}, "en-US")
+				in
+					Typed
+

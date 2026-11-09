@@ -1,0 +1,358 @@
+account_id,account_name,iso3,account_type,first_month
+DE-001,Hospital DE-001,DEU,Public general hospital,2023-01-01
+DE-002,Hospital DE-002,DEU,University hospital,2023-01-01
+DE-003,Hospital DE-003,DEU,Private hospital,2023-01-01
+DE-004,Hospital DE-004,DEU,Public general hospital,2023-01-01
+DE-005,Hospital DE-005,DEU,Private hospital,2023-01-01
+DE-006,Hospital DE-006,DEU,Public general hospital,2023-01-01
+DE-007,Hospital DE-007,DEU,Public general hospital,2023-01-01
+DE-008,Hospital DE-008,DEU,Cardiac centre,2023-01-01
+DE-009,Hospital DE-009,DEU,University hospital,2023-01-01
+DE-010,Hospital DE-010,DEU,University hospital,2023-01-01
+DE-011,Hospital DE-011,DEU,Cardiac centre,2023-01-01
+DE-012,Hospital DE-012,DEU,Public general hospital,2023-01-01
+DE-013,Hospital DE-013,DEU,Public general hospital,2023-01-01
+DE-014,Hospital DE-014,DEU,Public general hospital,2023-01-01
+DE-015,Hospital DE-015,DEU,Private hospital,2023-01-01
+DE-016,Hospital DE-016,DEU,Private hospital,2023-01-01
+DE-017,Hospital DE-017,DEU,University hospital,2023-01-01
+DE-018,Hospital DE-018,DEU,Private hospital,2023-01-01
+DE-019,Hospital DE-019,DEU,Public general hospital,2023-01-01
+DE-020,Hospital DE-020,DEU,Private hospital,2023-01-01
+DE-021,Hospital DE-021,DEU,Private hospital,2023-01-01
+DE-022,Hospital DE-022,DEU,Public general hospital,2023-01-01
+DE-023,Hospital DE-023,DEU,Public general hospital,2023-01-01
+DE-024,Hospital DE-024,DEU,Private hospital,2023-01-01
+DE-025,Hospital DE-025,DEU,Public general hospital,2023-01-01
+DE-026,Hospital DE-026,DEU,Public general hospital,2023-01-01
+DE-027,Hospital DE-027,DEU,Public general hospital,2023-01-01
+DE-028,Hospital DE-028,DEU,University hospital,2023-01-01
+DE-029,Hospital DE-029,DEU,Public general hospital,2023-01-01
+DE-030,Hospital DE-030,DEU,University hospital,2023-01-01
+DE-031,Hospital DE-031,DEU,Public general hospital,2023-01-01
+DE-032,Hospital DE-032,DEU,Public general hospital,2023-01-01
+DE-033,Hospital DE-033,DEU,Cardiac centre,2023-01-01
+DE-034,Hospital DE-034,DEU,Public general hospital,2023-01-01
+DE-035,Hospital DE-035,DEU,Private hospital,2023-01-01
+DE-036,Hospital DE-036,DEU,University hospital,2023-01-01
+DE-037,Hospital DE-037,DEU,University hospital,2023-01-01
+DE-038,Hospital DE-038,DEU,University hospital,2023-01-01
+DE-039,Hospital DE-039,DEU,Private hospital,2023-01-01
+DE-040,Hospital DE-040,DEU,Public general hospital,2023-01-01
+DE-041,Hospital DE-041,DEU,Public general hospital,2023-01-01
+DE-042,Hospital DE-042,DEU,Public general hospital,2023-01-01
+DE-043,Hospital DE-043,DEU,Public general hospital,2023-01-01
+DE-044,Hospital DE-044,DEU,Public general hospital,2023-01-01
+DE-045,Hospital DE-045,DEU,University hospital,2023-01-01
+DE-046,Hospital DE-046,DEU,Private hospital,2023-01-01
+DE-047,Hospital DE-047,DEU,Public general hospital,2023-01-01
+DE-048,Hospital DE-048,DEU,Public general hospital,2023-01-01
+DE-049,Hospital DE-049,DEU,Public general hospital,2023-01-01
+DE-050,Hospital DE-050,DEU,Private hospital,2023-01-01
+DE-051,Hospital DE-051,DEU,Public general hospital,2023-01-01
+DE-052,Hospital DE-052,DEU,Public general hospital,2023-01-01
+DE-053,Hospital DE-053,DEU,Private hospital,2023-01-01
+DE-054,Hospital DE-054,DEU,University hospital,2023-01-01
+DE-055,Hospital DE-055,DEU,Public general hospital,2023-01-01
+DE-056,Hospital DE-056,DEU,Public general hospital,2023-01-01
+DE-057,Hospital DE-057,DEU,Public general hospital,2023-01-01
+DE-058,Hospital DE-058,DEU,University hospital,2023-01-01
+AT-001,Hospital AT-001,AUT,Cardiac centre,2023-01-01
+AT-002,Hospital AT-002,AUT,Private hospital,2023-01-01
+AT-003,Hospital AT-003,AUT,Public general hospital,2023-01-01
+AT-004,Hospital AT-004,AUT,Public general hospital,2023-01-01
+AT-005,Hospital AT-005,AUT,Public general hospital,2023-01-01
+AT-006,Hospital AT-006,AUT,University hospital,2023-01-01
+AT-007,Hospital AT-007,AUT,University hospital,2026-01-01
+CH-001,Hospital CH-001,CHE,Public general hospital,2023-01-01
+CH-002,Hospital CH-002,CHE,Public general hospital,2023-01-01
+CH-003,Hospital CH-003,CHE,University hospital,2023-01-01
+CH-004,Hospital CH-004,CHE,University hospital,2023-01-01
+CH-005,Hospital CH-005,CHE,Public general hospital,2023-01-01
+CH-006,Hospital CH-006,CHE,Private hospital,2023-01-01
+CH-007,Hospital CH-007,CHE,University hospital,2023-01-01
+CH-008,Hospital CH-008,CHE,Public general hospital,2023-01-01
+CH-009,Hospital CH-009,CHE,Cardiac centre,2026-06-01
+FR-001,Hospital FR-001,FRA,Public general hospital,2023-01-01
+FR-002,Hospital FR-002,FRA,University hospital,2023-01-01
+FR-003,Hospital FR-003,FRA,Public general hospital,2023-01-01
+FR-004,Hospital FR-004,FRA,Public general hospital,2023-01-01
+FR-005,Hospital FR-005,FRA,University hospital,2023-01-01
+FR-006,Hospital FR-006,FRA,University hospital,2023-01-01
+FR-007,Hospital FR-007,FRA,Private hospital,2023-01-01
+FR-008,Hospital FR-008,FRA,Public general hospital,2023-01-01
+FR-009,Hospital FR-009,FRA,Private hospital,2023-01-01
+FR-010,Hospital FR-010,FRA,University hospital,2023-01-01
+FR-011,Hospital FR-011,FRA,University hospital,2023-01-01
+FR-012,Hospital FR-012,FRA,University hospital,2023-01-01
+FR-013,Hospital FR-013,FRA,University hospital,2023-01-01
+FR-014,Hospital FR-014,FRA,Public general hospital,2023-01-01
+FR-015,Hospital FR-015,FRA,University hospital,2023-01-01
+FR-016,Hospital FR-016,FRA,University hospital,2023-01-01
+FR-017,Hospital FR-017,FRA,Public general hospital,2023-01-01
+FR-018,Hospital FR-018,FRA,Private hospital,2023-01-01
+FR-019,Hospital FR-019,FRA,University hospital,2023-01-01
+FR-020,Hospital FR-020,FRA,Public general hospital,2023-01-01
+FR-021,Hospital FR-021,FRA,Public general hospital,2023-01-01
+FR-022,Hospital FR-022,FRA,Private hospital,2023-01-01
+FR-023,Hospital FR-023,FRA,University hospital,2023-01-01
+FR-024,Hospital FR-024,FRA,Cardiac centre,2023-01-01
+FR-025,Hospital FR-025,FRA,Public general hospital,2023-01-01
+FR-026,Hospital FR-026,FRA,Public general hospital,2023-01-01
+FR-027,Hospital FR-027,FRA,Public general hospital,2023-01-01
+FR-028,Hospital FR-028,FRA,Public general hospital,2023-01-01
+FR-029,Hospital FR-029,FRA,Public general hospital,2023-01-01
+FR-030,Hospital FR-030,FRA,Public general hospital,2023-01-01
+FR-031,Hospital FR-031,FRA,Private hospital,2023-01-01
+FR-032,Hospital FR-032,FRA,Cardiac centre,2023-01-01
+FR-033,Hospital FR-033,FRA,Public general hospital,2023-01-01
+FR-034,Hospital FR-034,FRA,Private hospital,2023-01-01
+FR-035,Hospital FR-035,FRA,Public general hospital,2023-01-01
+FR-036,Hospital FR-036,FRA,Private hospital,2023-01-01
+FR-037,Hospital FR-037,FRA,University hospital,2023-01-01
+FR-038,Hospital FR-038,FRA,Cardiac centre,2023-01-01
+FR-039,Hospital FR-039,FRA,Private hospital,2023-01-01
+FR-040,Hospital FR-040,FRA,Private hospital,2023-01-01
+FR-041,Hospital FR-041,FRA,Public general hospital,2023-01-01
+FR-042,Hospital FR-042,FRA,Public general hospital,2023-01-01
+FR-043,Hospital FR-043,FRA,Public general hospital,2023-01-01
+FR-044,Hospital FR-044,FRA,Public general hospital,2023-01-01
+FR-045,Hospital FR-045,FRA,University hospital,2023-01-01
+FR-046,Hospital FR-046,FRA,Private hospital,2023-01-01
+FR-047,Hospital FR-047,FRA,Private hospital,2023-01-01
+FR-048,Hospital FR-048,FRA,Private hospital,2023-01-01
+FR-049,Hospital FR-049,FRA,Public general hospital,2023-01-01
+FR-050,Hospital FR-050,FRA,Cardiac centre,2023-01-01
+FR-051,Hospital FR-051,FRA,Private hospital,2023-01-01
+FR-052,Hospital FR-052,FRA,Private hospital,2023-01-01
+FR-053,Hospital FR-053,FRA,Cardiac centre,2023-01-01
+FR-054,Hospital FR-054,FRA,University hospital,2023-01-01
+FR-055,Hospital FR-055,FRA,University hospital,2023-01-01
+FR-056,Hospital FR-056,FRA,University hospital,2023-01-01
+FR-057,Hospital FR-057,FRA,Public general hospital,2023-01-01
+FR-058,Hospital FR-058,FRA,Public general hospital,2023-01-01
+FR-059,Hospital FR-059,FRA,University hospital,2023-01-01
+FR-060,Hospital FR-060,FRA,Public general hospital,2023-01-01
+FR-061,Hospital FR-061,FRA,Cardiac centre,2023-01-01
+FR-062,Hospital FR-062,FRA,University hospital,2023-01-01
+FR-063,Hospital FR-063,FRA,University hospital,2023-01-01
+FR-064,Hospital FR-064,FRA,University hospital,2023-01-01
+FR-065,Hospital FR-065,FRA,University hospital,2023-01-01
+FR-066,Hospital FR-066,FRA,Public general hospital,2023-01-01
+FR-067,Hospital FR-067,FRA,Private hospital,2023-01-01
+FR-068,Hospital FR-068,FRA,Cardiac centre,2023-01-01
+FR-069,Hospital FR-069,FRA,Private hospital,2023-01-01
+FR-070,Hospital FR-070,FRA,Public general hospital,2025-09-01
+BE-001,Hospital BE-001,BEL,University hospital,2023-01-01
+BE-002,Hospital BE-002,BEL,Cardiac centre,2023-01-01
+BE-003,Hospital BE-003,BEL,Public general hospital,2023-01-01
+BE-004,Hospital BE-004,BEL,Private hospital,2023-01-01
+BE-005,Hospital BE-005,BEL,University hospital,2023-01-01
+BE-006,Hospital BE-006,BEL,Private hospital,2023-01-01
+BE-007,Hospital BE-007,BEL,University hospital,2023-01-01
+BE-008,Hospital BE-008,BEL,Public general hospital,2023-01-01
+BE-009,Hospital BE-009,BEL,Cardiac centre,2023-01-01
+BE-010,Hospital BE-010,BEL,Public general hospital,2023-01-01
+NL-001,Hospital NL-001,NLD,Public general hospital,2023-01-01
+NL-002,Hospital NL-002,NLD,Public general hospital,2023-01-01
+NL-003,Hospital NL-003,NLD,Public general hospital,2023-01-01
+NL-004,Hospital NL-004,NLD,Public general hospital,2023-01-01
+NL-005,Hospital NL-005,NLD,Public general hospital,2023-01-01
+NL-006,Hospital NL-006,NLD,Public general hospital,2023-01-01
+NL-007,Hospital NL-007,NLD,Private hospital,2023-01-01
+NL-008,Hospital NL-008,NLD,Public general hospital,2023-01-01
+NL-009,Hospital NL-009,NLD,Public general hospital,2023-01-01
+NL-010,Hospital NL-010,NLD,Private hospital,2025-03-01
+IT-001,Hospital IT-001,ITA,Private hospital,2023-01-01
+IT-002,Hospital IT-002,ITA,Public general hospital,2023-01-01
+IT-003,Hospital IT-003,ITA,Private hospital,2023-01-01
+IT-004,Hospital IT-004,ITA,Public general hospital,2023-01-01
+IT-005,Hospital IT-005,ITA,Private hospital,2023-01-01
+IT-006,Hospital IT-006,ITA,Private hospital,2023-01-01
+IT-007,Hospital IT-007,ITA,Public general hospital,2023-01-01
+IT-008,Hospital IT-008,ITA,Cardiac centre,2023-01-01
+IT-009,Hospital IT-009,ITA,Public general hospital,2023-01-01
+IT-010,Hospital IT-010,ITA,Public general hospital,2023-01-01
+IT-011,Hospital IT-011,ITA,University hospital,2023-01-01
+IT-012,Hospital IT-012,ITA,University hospital,2023-01-01
+IT-013,Hospital IT-013,ITA,Public general hospital,2023-01-01
+IT-014,Hospital IT-014,ITA,University hospital,2023-01-01
+IT-015,Hospital IT-015,ITA,University hospital,2023-01-01
+IT-016,Hospital IT-016,ITA,Public general hospital,2023-01-01
+IT-017,Hospital IT-017,ITA,Cardiac centre,2023-01-01
+IT-018,Hospital IT-018,ITA,Public general hospital,2023-01-01
+IT-019,Hospital IT-019,ITA,Public general hospital,2023-01-01
+IT-020,Hospital IT-020,ITA,Private hospital,2023-01-01
+IT-021,Hospital IT-021,ITA,Private hospital,2023-01-01
+IT-022,Hospital IT-022,ITA,Public general hospital,2023-01-01
+IT-023,Hospital IT-023,ITA,Private hospital,2023-01-01
+IT-024,Hospital IT-024,ITA,Private hospital,2023-01-01
+IT-025,Hospital IT-025,ITA,Public general hospital,2023-01-01
+IT-026,Hospital IT-026,ITA,Public general hospital,2023-01-01
+IT-027,Hospital IT-027,ITA,Public general hospital,2023-01-01
+IT-028,Hospital IT-028,ITA,University hospital,2023-01-01
+IT-029,Hospital IT-029,ITA,University hospital,2023-01-01
+IT-030,Hospital IT-030,ITA,Public general hospital,2023-01-01
+IT-031,Hospital IT-031,ITA,Public general hospital,2023-01-01
+IT-032,Hospital IT-032,ITA,Cardiac centre,2023-01-01
+IT-033,Hospital IT-033,ITA,Private hospital,2023-01-01
+IT-034,Hospital IT-034,ITA,Cardiac centre,2023-01-01
+IT-035,Hospital IT-035,ITA,University hospital,2023-01-01
+IT-036,Hospital IT-036,ITA,Public general hospital,2023-01-01
+IT-037,Hospital IT-037,ITA,Cardiac centre,2023-01-01
+IT-038,Hospital IT-038,ITA,Private hospital,2025-10-01
+ES-001,Hospital ES-001,ESP,Private hospital,2023-01-01
+ES-002,Hospital ES-002,ESP,Public general hospital,2023-01-01
+ES-003,Hospital ES-003,ESP,Private hospital,2023-01-01
+ES-004,Hospital ES-004,ESP,Private hospital,2023-01-01
+ES-005,Hospital ES-005,ESP,University hospital,2023-01-01
+ES-006,Hospital ES-006,ESP,University hospital,2023-01-01
+ES-007,Hospital ES-007,ESP,Private hospital,2023-01-01
+ES-008,Hospital ES-008,ESP,Private hospital,2023-01-01
+ES-009,Hospital ES-009,ESP,Public general hospital,2023-01-01
+ES-010,Hospital ES-010,ESP,Public general hospital,2023-01-01
+ES-011,Hospital ES-011,ESP,Public general hospital,2023-01-01
+ES-012,Hospital ES-012,ESP,University hospital,2023-01-01
+ES-013,Hospital ES-013,ESP,Private hospital,2023-01-01
+ES-014,Hospital ES-014,ESP,Public general hospital,2023-01-01
+ES-015,Hospital ES-015,ESP,University hospital,2023-01-01
+ES-016,Hospital ES-016,ESP,Private hospital,2023-01-01
+ES-017,Hospital ES-017,ESP,Public general hospital,2023-01-01
+ES-018,Hospital ES-018,ESP,Public general hospital,2023-01-01
+ES-019,Hospital ES-019,ESP,Cardiac centre,2025-01-01
+ES-020,Hospital ES-020,ESP,Public general hospital,2025-07-01
+ES-021,Hospital ES-021,ESP,Public general hospital,2025-04-01
+PT-001,Hospital PT-001,PRT,Cardiac centre,2023-01-01
+PT-002,Hospital PT-002,PRT,Public general hospital,2023-01-01
+PT-003,Hospital PT-003,PRT,Public general hospital,2023-01-01
+PT-004,Hospital PT-004,PRT,Private hospital,2023-01-01
+PT-005,Hospital PT-005,PRT,Public general hospital,2023-01-01
+PT-006,Hospital PT-006,PRT,University hospital,2023-01-01
+GB-001,Hospital GB-001,GBR,Private hospital,2023-01-01
+GB-002,Hospital GB-002,GBR,Public general hospital,2023-01-01
+GB-003,Hospital GB-003,GBR,Private hospital,2023-01-01
+GB-004,Hospital GB-004,GBR,University hospital,2023-01-01
+GB-005,Hospital GB-005,GBR,Private hospital,2023-01-01
+GB-006,Hospital GB-006,GBR,Public general hospital,2023-01-01
+GB-007,Hospital GB-007,GBR,University hospital,2023-01-01
+GB-008,Hospital GB-008,GBR,University hospital,2023-01-01
+GB-009,Hospital GB-009,GBR,Public general hospital,2023-01-01
+GB-010,Hospital GB-010,GBR,Public general hospital,2023-01-01
+GB-011,Hospital GB-011,GBR,University hospital,2023-01-01
+GB-012,Hospital GB-012,GBR,Public general hospital,2023-01-01
+GB-013,Hospital GB-013,GBR,Private hospital,2023-01-01
+GB-014,Hospital GB-014,GBR,Public general hospital,2023-01-01
+GB-015,Hospital GB-015,GBR,Private hospital,2023-01-01
+GB-016,Hospital GB-016,GBR,Public general hospital,2023-01-01
+GB-017,Hospital GB-017,GBR,Private hospital,2023-01-01
+SE-001,Hospital SE-001,SWE,University hospital,2023-01-01
+SE-002,Hospital SE-002,SWE,University hospital,2023-01-01
+SE-003,Hospital SE-003,SWE,Cardiac centre,2023-01-01
+SE-004,Hospital SE-004,SWE,University hospital,2023-01-01
+SE-005,Hospital SE-005,SWE,University hospital,2023-01-01
+SE-006,Hospital SE-006,SWE,Private hospital,2023-01-01
+PL-001,Hospital PL-001,POL,Public general hospital,2023-01-01
+PL-002,Hospital PL-002,POL,Private hospital,2023-01-01
+PL-003,Hospital PL-003,POL,Public general hospital,2023-01-01
+PL-004,Hospital PL-004,POL,Public general hospital,2023-01-01
+PL-005,Hospital PL-005,POL,Private hospital,2023-01-01
+PL-006,Hospital PL-006,POL,Public general hospital,2023-01-01
+PL-007,Hospital PL-007,POL,University hospital,2023-01-01
+PL-008,Hospital PL-008,POL,University hospital,2026-04-01
+PL-009,Hospital PL-009,POL,Public general hospital,2026-01-01
+PL-010,Hospital PL-010,POL,University hospital,2026-01-01
+PL-011,Hospital PL-011,POL,Public general hospital,2026-01-01
+CZ-001,Hospital CZ-001,CZE,Cardiac centre,2023-01-01
+CZ-002,Hospital CZ-002,CZE,Private hospital,2023-01-01
+CZ-003,Hospital CZ-003,CZE,Public general hospital,2023-01-01
+CZ-004,Hospital CZ-004,CZE,Public general hospital,2023-01-01
+CZ-005,Hospital CZ-005,CZE,Private hospital,2023-01-01
+CZ-006,Hospital CZ-006,CZE,University hospital,2023-01-01
+CZ-007,Hospital CZ-007,CZE,Public general hospital,2025-01-01
+RO-001,Hospital RO-001,ROU,Private hospital,2023-01-01
+RO-002,Hospital RO-002,ROU,Cardiac centre,2023-01-01
+RO-003,Hospital RO-003,ROU,University hospital,2023-01-01
+RO-004,Hospital RO-004,ROU,Public general hospital,2023-01-01
+RO-005,Hospital RO-005,ROU,Public general hospital,2023-01-01
+RO-006,Hospital RO-006,ROU,Cardiac centre,2023-01-01
+RO-007,Hospital RO-007,ROU,Private hospital,2026-01-01
+RO-008,Hospital RO-008,ROU,Public general hospital,2025-12-01
+RO-009,Hospital RO-009,ROU,Public general hospital,2026-04-01
+TR-001,Hospital TR-001,TUR,Public general hospital,2023-01-01
+TR-002,Hospital TR-002,TUR,Private hospital,2023-01-01
+TR-003,Hospital TR-003,TUR,University hospital,2023-01-01
+TR-004,Hospital TR-004,TUR,Cardiac centre,2023-01-01
+TR-005,Hospital TR-005,TUR,Private hospital,2023-01-01
+TR-006,Hospital TR-006,TUR,Public general hospital,2023-01-01
+TR-007,Hospital TR-007,TUR,Public general hospital,2023-01-01
+TR-008,Hospital TR-008,TUR,University hospital,2023-01-01
+TR-009,Hospital TR-009,TUR,University hospital,2023-01-01
+TR-010,Hospital TR-010,TUR,Public general hospital,2023-01-01
+TR-011,Hospital TR-011,TUR,University hospital,2023-01-01
+TR-012,Hospital TR-012,TUR,Public general hospital,2023-01-01
+TR-013,Hospital TR-013,TUR,Public general hospital,2023-01-01
+TR-014,Hospital TR-014,TUR,University hospital,2023-01-01
+TR-015,Hospital TR-015,TUR,Private hospital,2023-01-01
+TR-016,Hospital TR-016,TUR,Public general hospital,2023-01-01
+TR-017,Hospital TR-017,TUR,Private hospital,2023-01-01
+TR-018,Hospital TR-018,TUR,Cardiac centre,2023-01-01
+TR-019,Hospital TR-019,TUR,University hospital,2023-01-01
+TR-020,Hospital TR-020,TUR,University hospital,2023-01-01
+TR-021,Hospital TR-021,TUR,Public general hospital,2023-01-01
+TR-022,Hospital TR-022,TUR,University hospital,2023-01-01
+TR-023,Hospital TR-023,TUR,Private hospital,2023-01-01
+TR-024,Hospital TR-024,TUR,Public general hospital,2023-01-01
+TR-025,Hospital TR-025,TUR,University hospital,2023-01-01
+TR-026,Hospital TR-026,TUR,Private hospital,2026-03-01
+TR-027,Hospital TR-027,TUR,Private hospital,2025-12-01
+TR-028,Hospital TR-028,TUR,University hospital,2025-08-01
+TR-029,Hospital TR-029,TUR,Private hospital,2025-10-01
+TR-030,Hospital TR-030,TUR,University hospital,2025-10-01
+TR-031,Hospital TR-031,TUR,Private hospital,2025-06-01
+TR-032,Hospital TR-032,TUR,Public general hospital,2025-10-01
+TR-033,Hospital TR-033,TUR,University hospital,2025-04-01
+TR-034,Hospital TR-034,TUR,Cardiac centre,2026-06-01
+TR-035,Hospital TR-035,TUR,University hospital,2026-04-01
+TR-036,Hospital TR-036,TUR,Cardiac centre,2025-01-01
+TR-037,Hospital TR-037,TUR,Public general hospital,2025-10-01
+IL-001,Hospital IL-001,ISR,Cardiac centre,2023-01-01
+IL-002,Hospital IL-002,ISR,Public general hospital,2023-01-01
+IL-003,Hospital IL-003,ISR,Public general hospital,2023-01-01
+IL-004,Hospital IL-004,ISR,Private hospital,2023-01-01
+IL-005,Hospital IL-005,ISR,Private hospital,2023-01-01
+IL-006,Hospital IL-006,ISR,Public general hospital,2023-01-01
+IL-007,Hospital IL-007,ISR,Cardiac centre,2023-01-01
+IL-008,Hospital IL-008,ISR,Public general hospital,2025-08-01
+KR-001,Hospital KR-001,KOR,Public general hospital,2023-01-01
+KR-002,Hospital KR-002,KOR,Private hospital,2023-01-01
+KR-003,Hospital KR-003,KOR,Public general hospital,2023-01-01
+KR-004,Hospital KR-004,KOR,Public general hospital,2023-01-01
+KR-005,Hospital KR-005,KOR,Private hospital,2023-01-01
+KR-006,Hospital KR-006,KOR,Private hospital,2023-01-01
+KR-007,Hospital KR-007,KOR,Public general hospital,2023-01-01
+KR-008,Hospital KR-008,KOR,Private hospital,2023-01-01
+KR-009,Hospital KR-009,KOR,Private hospital,2023-01-01
+KR-010,Hospital KR-010,KOR,Public general hospital,2023-01-01
+KR-011,Hospital KR-011,KOR,Public general hospital,2025-05-01
+KR-012,Hospital KR-012,KOR,Private hospital,2025-03-01
+KR-013,Hospital KR-013,KOR,University hospital,2026-03-01
+KR-014,Hospital KR-014,KOR,Private hospital,2025-04-01
+AU-001,Hospital AU-001,AUS,Public general hospital,2023-01-01
+AU-002,Hospital AU-002,AUS,Private hospital,2023-01-01
+AU-003,Hospital AU-003,AUS,Public general hospital,2023-01-01
+AU-004,Hospital AU-004,AUS,Public general hospital,2023-01-01
+AU-005,Hospital AU-005,AUS,Public general hospital,2023-01-01
+AU-006,Hospital AU-006,AUS,Private hospital,2023-01-01
+AU-007,Hospital AU-007,AUS,Private hospital,2023-01-01
+AU-008,Hospital AU-008,AUS,Cardiac centre,2023-01-01
+AU-009,Hospital AU-009,AUS,Public general hospital,2023-01-01
+AU-010,Hospital AU-010,AUS,Public general hospital,2023-01-01
+AU-011,Hospital AU-011,AUS,Cardiac centre,2023-01-01
+AU-012,Hospital AU-012,AUS,Private hospital,2025-03-01
+AU-013,Hospital AU-013,AUS,Public general hospital,2026-01-01
+NZ-001,Hospital NZ-001,NZL,Public general hospital,2023-01-01
+NZ-002,Hospital NZ-002,NZL,Public general hospital,2023-01-01
+NZ-003,Hospital NZ-003,NZL,Private hospital,2023-01-01
+NZ-004,Hospital NZ-004,NZL,Public general hospital,2023-01-01
+NZ-005,Hospital NZ-005,NZL,University hospital,2023-01-01
+NZ-006,Hospital NZ-006,NZL,Public general hospital,2023-01-01

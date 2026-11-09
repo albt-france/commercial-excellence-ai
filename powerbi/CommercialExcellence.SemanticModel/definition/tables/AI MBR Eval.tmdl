@@ -1,0 +1,61 @@
+table 'AI MBR Eval'
+	lineageTag: ed4b75a8-0e21-5cef-bcc2-5a4e6b533085
+
+	column month
+		dataType: string
+		lineageTag: 6ef0c6f5-6b9d-5887-a85f-48ec99166c18
+		summarizeBy: none
+		sourceColumn: month
+
+	column numbers_cited
+		dataType: int64
+		formatString: #,0
+		lineageTag: e6f428ca-dfea-5b7f-98a4-2cab79a406d6
+		summarizeBy: none
+		sourceColumn: numbers_cited
+
+	column unsupported_first_draft
+		dataType: int64
+		formatString: #,0
+		lineageTag: a53de092-632a-5384-8e63-9ee94355e5fb
+		summarizeBy: none
+		sourceColumn: unsupported_first_draft
+
+	column attempts
+		dataType: int64
+		formatString: #,0
+		lineageTag: d51368c5-327e-5b2d-b1d6-8d3375ea25f3
+		summarizeBy: none
+		sourceColumn: attempts
+
+	column unsupported_final
+		dataType: int64
+		formatString: #,0
+		lineageTag: f0d4ec3f-8717-5943-bcae-4bb7bed4654e
+		summarizeBy: none
+		sourceColumn: unsupported_final
+
+	column accepted
+		dataType: boolean
+		lineageTag: c65ad550-50a3-5e4c-a9ef-f72971cbb5a8
+		summarizeBy: none
+		sourceColumn: accepted
+
+	column words
+		dataType: int64
+		formatString: #,0
+		lineageTag: f8246204-4dec-55fc-9da7-11e572d994aa
+		summarizeBy: none
+		sourceColumn: words
+
+	partition 'AI MBR Eval' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "output\ai_eval_mbr.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"month", "numbers_cited", "unsupported_first_draft", "attempts", "unsupported_final", "accepted", "words"}),
+					Typed = Table.TransformColumnTypes(Selected, {{"month", type text}, {"numbers_cited", Int64.Type}, {"unsupported_first_draft", Int64.Type}, {"attempts", Int64.Type}, {"unsupported_final", Int64.Type}, {"accepted", type logical}, {"words", Int64.Type}}, "en-US")
+				in
+					Typed
+
